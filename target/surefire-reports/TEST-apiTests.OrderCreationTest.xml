@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="apiTests.OrderCreationTest" time="19.917" tests="5" errors="0" skipped="0" failures="3">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="apiTests.OrderCreationTest" time="16.853" tests="5" errors="0" skipped="0" failures="3">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Amazon Corretto\jdk17.0.12_7\bin"/>
-    <property name="sun.java.command" value="C:\Users\Anastasia\AppData\Local\Temp\surefire9097445698168264220\surefirebooter-20241116151737631_3.jar C:\Users\Anastasia\AppData\Local\Temp\surefire9097445698168264220 2024-11-16T15-17-37_211-jvmRun1 surefire-20241116151737631_1tmp surefire_0-20241116151737631_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Anastasia\AppData\Local\Temp\surefire15116704192845150125\surefirebooter-20241119130558690_3.jar C:\Users\Anastasia\AppData\Local\Temp\surefire15116704192845150125 2024-11-19T13-05-58_348-jvmRun1 surefire-20241119130558690_1tmp surefire_0-20241119130558690_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Anastasia\IdeaProjects\Diplom_2\target\test-classes;C:\Users\Anastasia\IdeaProjects\Diplom_2\target\classes;C:\Users\Anastasia\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Anastasia\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Anastasia\.m2\repository\io\rest-assured\rest-assured\4.5.1\rest-assured-4.5.1.jar;C:\Users\Anastasia\.m2\repository\org\codehaus\groovy\groovy\3.0.9\groovy-3.0.9.jar;C:\Users\Anastasia\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.9\groovy-xml-3.0.9.jar;C:\Users\Anastasia\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Anastasia\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Anastasia\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Anastasia\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Anastasia\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Anastasia\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Anastasia\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Anastasia\.m2\repository\io\rest-assured\json-path\4.5.1\json-path-4.5.1.jar;C:\Users\Anastasia\.m2\repository\org\codehaus\groovy\groovy-json\3.0.9\groovy-json-3.0.9.jar;C:\Users\Anastasia\.m2\repository\io\rest-assured\rest-assured-common\4.5.1\rest-assured-common-4.5.1.jar;C:\Users\Anastasia\.m2\repository\io\rest-assured\xml-path\4.5.1\xml-path-4.5.1.jar;C:\Users\Anastasia\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Anastasia\.m2\repository\io\qameta\allure\allure-junit4\2.17.3\allure-junit4-2.17.3.jar;C:\Users\Anastasia\.m2\repository\io\qameta\allure\allure-java-commons\2.17.3\allure-java-commons-2.17.3.jar;C:\Users\Anastasia\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Anastasia\.m2\repository\io\qameta\allure\allure-model\2.17.3\allure-model-2.17.3.jar;C:\Users\Anastasia\.m2\repository\io\qameta\allure\allure-rest-assured\2.17.3\allure-rest-assured-2.17.3.jar;C:\Users\Anastasia\.m2\repository\io\qameta\allure\allure-attachments\2.17.3\allure-attachments-2.17.3.jar;C:\Users\Anastasia\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\Anastasia\.m2\repository\com\google\code\gson\gson\2.8.9\gson-2.8.9.jar;"/>
     <property name="allure.results.directory" value="C:\Users\Anastasia\IdeaProjects\Diplom_2\target/allure-results"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Anastasia\AppData\Local\Temp\surefire9097445698168264220\surefirebooter-20241116151737631_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Anastasia\AppData\Local\Temp\surefire15116704192845150125\surefirebooter-20241119130558690_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.12+7-LTS"/>
@@ -58,7 +58,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="createOrderWithInvalidIngredientsHash" classname="apiTests.OrderCreationTest" time="6.413">
+  <testcase name="createOrderWithInvalidIngredientsHash" classname="apiTests.OrderCreationTest" time="6.057">
     <failure message="1 expectation failed.&#10;Expected status code &lt;500&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <500> but was <400>.
@@ -133,24 +133,24 @@ Expected status code <500> but was <400>.
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 ]]></failure>
-    <system-out><![CDATA[Пользователь успешно создан: user24242e@yandex.ru
-Логин с данными - email: user24242e@yandex.ru, password: pass8bf912, name: User6f0a7d
+    <system-out><![CDATA[Пользователь успешно создан: useraac277@yandex.ru
+Логин с данными - email: useraac277@yandex.ru, password: pass765d24, name: Usera16d37
 Пользователь успешно вошел в систему
 HTTP/1.1 400 Bad Request
-Date: Sat, 16 Nov 2024 12:17:42 GMT
+Date: Tue, 19 Nov 2024 10:06:03 GMT
 Content-Type: application/json; charset=utf-8
 Content-Length: 68
 Connection: keep-alive
 X-Powered-By: Express
 Access-Control-Allow-Origin: *
 ETag: W/"44-iv5yjzJnIFw/3XSnnHvmvdpwQ0Y"
-cf-cache-status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=1EB3WESfJXKDyva6qLVvIekWPhMEgN3Hu1QhoINV6hoAIBxIwkfGYlu0LXklc3vs6MzyzOX8bjFAvAUZTZtLStyJVEyBDwwe8HA3Q6Jh2m1HyyjgmRAAC09YXE69DZE%2BHjq7xqRJxxB6o2qa%2F7IVc6uHqHM%3D"}],"group":"cf-nel","max_age":604800}
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=fN577bTXpdWAh8SzmU46hGY5GfRLuATd9oNB3ZgUarucxu4AO82jj%2BcathU9J2Y6uAPwVc6KV4b4hKlwYP2LnLEeCF75H52WTJwewvnLBwA5Jlb1dGBzIZZP45SaknH55vr2nI5DVPL3mWkvOrSVPX%2BNEaI%3D"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 8e376b60aac4e314-DME
+CF-RAY: 8e4f62a8c9e19fd8-AMS
 alt-svc: h3=":443"; ma=86400
-server-timing: cfL4;desc="?proto=TCP&rtt=43936&sent=8&recv=7&lost=0&retrans=0&sent_bytes=3302&recv_bytes=1107&delivery_rate=67633&cwnd=253&unsent_bytes=0&cid=6be80f93e74104f7&ts=296&x=0"
+server-timing: cfL4;desc="?proto=TCP&rtt=89905&sent=8&recv=7&lost=0&retrans=0&sent_bytes=3303&recv_bytes=1107&delivery_rate=40296&cwnd=253&unsent_bytes=0&cid=db56a7a181a0ad27&ts=401&x=0"
 
 {
     "success": false,
@@ -173,7 +173,7 @@ SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="createOrderWithNoAuthorization" classname="apiTests.OrderCreationTest" time="0.457">
+  <testcase name="createOrderWithNoAuthorization" classname="apiTests.OrderCreationTest" time="1.157">
     <failure message="1 expectation failed.&#10;Expected status code &lt;401&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <401> but was <200>.
@@ -248,50 +248,50 @@ Expected status code <401> but was <200>.
 ]]></failure>
     <system-out><![CDATA[Выполняется метод для проверки ошибки запроса создания заказа без авторизации, с ингредиентами...
 HTTP/1.1 200 OK
-Date: Sat, 16 Nov 2024 12:17:44 GMT
+Date: Tue, 19 Nov 2024 10:06:06 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
 X-Powered-By: Express
 Access-Control-Allow-Origin: *
-ETag: W/"76-9jVhXgQ29Zi0zS9Dgj2yjsSAHFE"
-cf-cache-status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=BVuhGkpdk8nEoi5NAJ5ESoFsr%2F8UqfueWXjUN0lcgBXeInyWugN%2BNMlnxJPP24fAQy51uS8OcqNOcOMu0laoii85JwtUQ33mJm99O86xMCFvEOc0NrLry4lg7oKfWUuBVt5NjEG%2FkQyLNedSjm7G68LWj98%3D"}],"group":"cf-nel","max_age":604800}
+ETag: W/"76-2W99s5lF6caybBUUrfGlOdfZ1fw"
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=aqA8Cwzd%2FZxY6YbGcwDjhKeLCrINmXqzR22rUj%2FWKIWSOKx%2FbeaiMv9cYS37V0sbMF%2BbvISJy3ojnI1vk2t%2FFYzAEoIIOVXFbVw6Lc6kUiAFa1%2Be8wLGxotspVmm86cXR5nbL6ts28xqfCOte5TKkFbMD3I%3D"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 8e376b6d7f499dd3-DME
+CF-RAY: 8e4f62b8cf9a2046-IAD
 Content-Encoding: gzip
 alt-svc: h3=":443"; ma=86400
-server-timing: cfL4;desc="?proto=TCP&rtt=46263&sent=8&recv=7&lost=0&retrans=0&sent_bytes=3302&recv_bytes=936&delivery_rate=77111&cwnd=253&unsent_bytes=0&cid=835da7511c0e0f82&ts=335&x=0"
+server-timing: cfL4;desc="?proto=TCP&rtt=154771&sent=8&recv=7&lost=0&retrans=0&sent_bytes=3302&recv_bytes=936&delivery_rate=26172&cwnd=243&unsent_bytes=0&cid=301ad82917ec4e38&ts=815&x=0"
 
 {
     "success": true,
     "name": "Фалленианский флюоресцентный бургер",
     "order": {
-        "number": 4029
+        "number": 8377
     }
 }
 ]]></system-out>
   </testcase>
-  <testcase name="createOrderWithAuthorizationAndNoIngredients" classname="apiTests.OrderCreationTest" time="4.38">
-    <system-out><![CDATA[Пользователь успешно создан: usere66b55@yandex.ru
-Логин с данными - email: usere66b55@yandex.ru, password: pass1e463d, name: User81588d
+  <testcase name="createOrderWithAuthorizationAndNoIngredients" classname="apiTests.OrderCreationTest" time="4.099">
+    <system-out><![CDATA[Пользователь успешно создан: userecfa71@yandex.ru
+Логин с данными - email: userecfa71@yandex.ru, password: passcfbfb3, name: Usera57e98
 Пользователь успешно вошел в систему
 HTTP/1.1 400 Bad Request
-Date: Sat, 16 Nov 2024 12:17:47 GMT
+Date: Tue, 19 Nov 2024 10:06:09 GMT
 Content-Type: application/json; charset=utf-8
 Content-Length: 61
 Connection: keep-alive
 X-Powered-By: Express
 Access-Control-Allow-Origin: *
 ETag: W/"3d-2OjyVsQbcrSKTjJtjBJ5FY7GEPQ"
-cf-cache-status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=TndQAwi0DU8XUBoEz1U2D4PvfGZmFGgc44n2VHQJeUKlIySL01OahUPpDyyG374LKiLkLAWQq1pQwWbalRLHIaoTWOGHK97A%2BRGeNmRhQLRldOGumamSpjsydJXfiyQ0waXKIiDiVDMQCCEaTKDzZgeASK8%3D"}],"group":"cf-nel","max_age":604800}
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=D2BKrovovPco%2Bqp2UKI2XfdlVYoLWrZF0Ru2vqVfsubOIoBMVaU5bmlU6IfTdG4xHqGqhxJ0UR0f04SS%2FMAOhlKAjRqLyGT7bAYyQllan69XV1LYb%2FsnLPfv2Xk9dHU3e8tfE1PU1V3vwtSvpxh8R357ge8%3D"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 8e376b7f08a402a1-CDG
+CF-RAY: 8e4f62ce08b69e87-CDG
 alt-svc: h3=":443"; ma=86400
-server-timing: cfL4;desc="?proto=TCP&rtt=116066&sent=8&recv=7&lost=0&retrans=0&sent_bytes=3301&recv_bytes=1077&delivery_rate=39429&cwnd=253&unsent_bytes=0&cid=56f24474d24fbd9b&ts=429&x=0"
+server-timing: cfL4;desc="?proto=TCP&rtt=82875&sent=8&recv=7&lost=0&retrans=0&sent_bytes=3302&recv_bytes=1077&delivery_rate=46902&cwnd=253&unsent_bytes=0&cid=ca1896f18d04ef7d&ts=406&x=0"
 
 {
     "success": false,
@@ -310,7 +310,7 @@ Delete Response Body:
 Пользователь успешно удален
 ]]></system-out>
   </testcase>
-  <testcase name="createOrderWithNoAuthorizationAndIngredients" classname="apiTests.OrderCreationTest" time="0.531">
+  <testcase name="createOrderWithNoAuthorizationAndIngredients" classname="apiTests.OrderCreationTest" time="0.615">
     <failure message="1 expectation failed.&#10;Expected status code &lt;401&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <401> but was <400>.
@@ -384,20 +384,20 @@ Expected status code <401> but was <400>.
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 ]]></failure>
     <system-out><![CDATA[HTTP/1.1 400 Bad Request
-Date: Sat, 16 Nov 2024 12:17:49 GMT
+Date: Tue, 19 Nov 2024 10:06:11 GMT
 Content-Type: application/json; charset=utf-8
 Content-Length: 61
 Connection: keep-alive
 X-Powered-By: Express
 Access-Control-Allow-Origin: *
 ETag: W/"3d-2OjyVsQbcrSKTjJtjBJ5FY7GEPQ"
-cf-cache-status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=w4WS1I5jG747YYax%2Fwj6YizXIheKl3oMJ59qr%2FQNcYHBGarmExVYgKd5f%2FRfsYD2igWcqxcUu7VxfvWtvE2E3Nd4rQ5CorF19mfU0pFUf%2Fr6g8khn26uSg98FxJFba%2BoK61jcmS3HPtUd8KyUeS4nRhjyds%3D"}],"group":"cf-nel","max_age":604800}
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=lQB%2B6jzwvDN5hNvZ9POAdoO0imf3DXn9JzfFOohszo%2F3xRRSzOY3JkrxweEFZ%2Bcr%2BMvzXLHjH%2FkD1TKp3CrYLIYVzHJ191CCx1zp90%2BHp4KUk5mgc3GCBKEQqhUX%2Fz80wbqKC1KZoAt5rNBQiILmFagtY3Q%3D"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 8e376b8c5c22e50d-TXL
+CF-RAY: 8e4f62d7b8a49fca-AMS
 alt-svc: h3=":443"; ma=86400
-server-timing: cfL4;desc="?proto=TCP&rtt=78969&sent=8&recv=7&lost=0&retrans=0&sent_bytes=3302&recv_bytes=882&delivery_rate=50753&cwnd=254&unsent_bytes=0&cid=d2490796045dbcb5&ts=357&x=0"
+server-timing: cfL4;desc="?proto=TCP&rtt=100907&sent=8&recv=7&lost=0&retrans=0&sent_bytes=3301&recv_bytes=882&delivery_rate=46830&cwnd=254&unsent_bytes=0&cid=8e7c34871f9a7fc0&ts=400&x=0"
 
 {
     "success": false,
@@ -405,27 +405,27 @@ server-timing: cfL4;desc="?proto=TCP&rtt=78969&sent=8&recv=7&lost=0&retrans=0&se
 }
 ]]></system-out>
   </testcase>
-  <testcase name="createOrderWithAuthorization" classname="apiTests.OrderCreationTest" time="8.046">
-    <system-out><![CDATA[Пользователь успешно создан: user82ffbc@yandex.ru
-Логин с данными - email: user82ffbc@yandex.ru, password: pass21e2a3, name: User8f7f4d
+  <testcase name="createOrderWithAuthorization" classname="apiTests.OrderCreationTest" time="4.83">
+    <system-out><![CDATA[Пользователь успешно создан: user60adf9@yandex.ru
+Логин с данными - email: user60adf9@yandex.ru, password: pass91f0b5, name: Userc11800
 Пользователь успешно вошел в систему
 Проверка успешного создания заказа...
 HTTP/1.1 200 OK
-Date: Sat, 16 Nov 2024 12:17:56 GMT
+Date: Tue, 19 Nov 2024 10:06:14 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
 X-Powered-By: Express
 Access-Control-Allow-Origin: *
-ETag: W/"4eb-+kteIS/m2x9eZQUSGJxuiDPq6zA"
-cf-cache-status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=pOIIb4YmQJXjPRdj%2BCwfEPnJDuw8Z2Y99BgbFNpOCyVDn7bomlso3oyWEU1R%2Fwm%2FnFN5As2%2FwV0RzVbpG1ZiJgBZyRGAKz9smxeUAMsOZvjnEiXZEy%2BRzQXg%2BTwUHVEF1ZEayqPq3YK1E4JZxcs418qMLaw%3D"}],"group":"cf-nel","max_age":604800}
+ETag: W/"4eb-hD5ykusGWmscgL5PIhm3hgeyIIc"
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=S4tBcjN4D1%2FZ7%2FURUKsjl7t3sg6fL5pAkiLM47ZpwvDB5bWUWCIMQGSq9eeO4tr4PmtSihOQ3ZVMjNgxJjeNmT3OvQJSs67sWvcoz1zJwPM3tr4OqOBwaxCKCmAu1RPq5lw1clba91WyupTAO4cn9tX2rSM%3D"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 8e376bae9b1d6f39-CDG
+CF-RAY: 8e4f62e348d80155-CDG
 Content-Encoding: gzip
 alt-svc: h3=":443"; ma=86400
-server-timing: cfL4;desc="?proto=TCP&rtt=97818&sent=8&recv=7&lost=0&retrans=0&sent_bytes=3301&recv_bytes=1131&delivery_rate=43597&cwnd=253&unsent_bytes=0&cid=9eef0f9f4a168d92&ts=1918&x=0"
+server-timing: cfL4;desc="?proto=TCP&rtt=70642&sent=8&recv=7&lost=0&retrans=0&sent_bytes=3301&recv_bytes=1131&delivery_rate=57228&cwnd=253&unsent_bytes=0&cid=54a4f3aadd9bc2a0&ts=1889&x=0"
 
 {
     "success": true,
@@ -461,18 +461,18 @@ server-timing: cfL4;desc="?proto=TCP&rtt=97818&sent=8&recv=7&lost=0&retrans=0&se
                 "__v": 0
             }
         ],
-        "_id": "67388d739ed280001b510c42",
+        "_id": "673c63159ed280001b5131a8",
         "owner": {
-            "name": "User8f7f4d",
-            "email": "user82ffbc@yandex.ru",
-            "createdAt": "2024-11-16T12:17:51.742Z",
-            "updatedAt": "2024-11-16T12:17:51.742Z"
+            "name": "Userc11800",
+            "email": "user60adf9@yandex.ru",
+            "createdAt": "2024-11-19T10:06:11.907Z",
+            "updatedAt": "2024-11-19T10:06:11.907Z"
         },
         "status": "done",
         "name": "Фалленианский флюоресцентный бургер",
-        "createdAt": "2024-11-16T12:17:55.041Z",
-        "updatedAt": "2024-11-16T12:17:55.977Z",
-        "number": 151561,
+        "createdAt": "2024-11-19T10:06:13.041Z",
+        "updatedAt": "2024-11-19T10:06:13.995Z",
+        "number": 151896,
         "price": 1862
     }
 }

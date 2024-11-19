@@ -29,7 +29,6 @@ public class UserLoginTest extends MethodsUserCreation {
 
     @Test
     @Description("Логин с верным именем, но неверным email и паролем")
-    @Step("Логин с верными данными, но неверными учетными данными")
     public void loginWithInvalidCredentials() {
         // Генерация данных для случайного пользователя
         String email = generateUniqueEmail();

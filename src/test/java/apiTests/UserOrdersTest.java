@@ -1,6 +1,6 @@
 package apiTests;
 
-import io.qameta.allure.Step;
+import io.qameta.allure.Description;
 import io.restassured.response.Response;
 import org.junit.Test;
 
@@ -9,7 +9,7 @@ public class UserOrdersTest extends MethodsUserCreation {
     private MethodsUserCreation methodsUserLogin = new MethodsUserCreation();
 
     @Test
-    @Step("Получение заказов авторизованного пользователя")
+    @Description("Получение заказов авторизованного пользователя")
     public void getUserOrdersWithAuthorization() {
         // Генерация уникальных данных для пользователя
         String email = generateUniqueEmail();
@@ -41,7 +41,7 @@ public class UserOrdersTest extends MethodsUserCreation {
 
 
     @Test
-    @Step("Проверка создания заказа и получения списка заказов без авторизации")
+    @Description("Проверка создания заказа и получения списка заказов без авторизации")
     public void createOrderAndGetUserOrdersWithoutAuthorization() {
         // Попытка получения списка заказов без авторизации
         Response ordersResponse = MethodsUserCreation.getUserOrdersWithoutAuthorization();

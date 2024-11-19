@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="apiTests.UserLoginTest" time="5.737" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="apiTests.UserLoginTest" time="4.906" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Amazon Corretto\jdk17.0.12_7\bin"/>
-    <property name="sun.java.command" value="C:\Users\Anastasia\AppData\Local\Temp\surefire9097445698168264220\surefirebooter-20241116151737631_3.jar C:\Users\Anastasia\AppData\Local\Temp\surefire9097445698168264220 2024-11-16T15-17-37_211-jvmRun1 surefire-20241116151737631_1tmp surefire_0-20241116151737631_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Anastasia\AppData\Local\Temp\surefire15116704192845150125\surefirebooter-20241119130558690_3.jar C:\Users\Anastasia\AppData\Local\Temp\surefire15116704192845150125 2024-11-19T13-05-58_348-jvmRun1 surefire-20241119130558690_1tmp surefire_0-20241119130558690_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Anastasia\IdeaProjects\Diplom_2\target\test-classes;C:\Users\Anastasia\IdeaProjects\Diplom_2\target\classes;C:\Users\Anastasia\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Anastasia\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Anastasia\.m2\repository\io\rest-assured\rest-assured\4.5.1\rest-assured-4.5.1.jar;C:\Users\Anastasia\.m2\repository\org\codehaus\groovy\groovy\3.0.9\groovy-3.0.9.jar;C:\Users\Anastasia\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.9\groovy-xml-3.0.9.jar;C:\Users\Anastasia\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Anastasia\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Anastasia\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Anastasia\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Anastasia\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Anastasia\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Anastasia\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Anastasia\.m2\repository\io\rest-assured\json-path\4.5.1\json-path-4.5.1.jar;C:\Users\Anastasia\.m2\repository\org\codehaus\groovy\groovy-json\3.0.9\groovy-json-3.0.9.jar;C:\Users\Anastasia\.m2\repository\io\rest-assured\rest-assured-common\4.5.1\rest-assured-common-4.5.1.jar;C:\Users\Anastasia\.m2\repository\io\rest-assured\xml-path\4.5.1\xml-path-4.5.1.jar;C:\Users\Anastasia\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Anastasia\.m2\repository\io\qameta\allure\allure-junit4\2.17.3\allure-junit4-2.17.3.jar;C:\Users\Anastasia\.m2\repository\io\qameta\allure\allure-java-commons\2.17.3\allure-java-commons-2.17.3.jar;C:\Users\Anastasia\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Anastasia\.m2\repository\io\qameta\allure\allure-model\2.17.3\allure-model-2.17.3.jar;C:\Users\Anastasia\.m2\repository\io\qameta\allure\allure-rest-assured\2.17.3\allure-rest-assured-2.17.3.jar;C:\Users\Anastasia\.m2\repository\io\qameta\allure\allure-attachments\2.17.3\allure-attachments-2.17.3.jar;C:\Users\Anastasia\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\Anastasia\.m2\repository\com\google\code\gson\gson\2.8.9\gson-2.8.9.jar;"/>
     <property name="allure.results.directory" value="C:\Users\Anastasia\IdeaProjects\Diplom_2\target/allure-results"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Anastasia\AppData\Local\Temp\surefire9097445698168264220\surefirebooter-20241116151737631_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Anastasia\AppData\Local\Temp\surefire15116704192845150125\surefirebooter-20241119130558690_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.12+7-LTS"/>
@@ -58,29 +58,29 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="loginWithInvalidCredentials" classname="apiTests.UserLoginTest" time="3.753">
-    <system-out><![CDATA[Пользователь успешно создан: user960a04@yandex.ru
+  <testcase name="loginWithInvalidCredentials" classname="apiTests.UserLoginTest" time="2.629">
+    <system-out><![CDATA[Пользователь успешно создан: user5710a6@yandex.ru
 Response Code: 200
 {
     "success": true,
     "user": {
-        "email": "user960a04@yandex.ru",
-        "name": "Userc65857"
+        "email": "user5710a6@yandex.ru",
+        "name": "Usere3a400"
     },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Mzg4ZGE4OWVkMjgwMDAxYjUxMGM1NyIsImlhdCI6MTczMTc1OTUyOCwiZXhwIjoxNzMxNzYwNzI4fQ.UfhDSksSPJyTtHSQV_yYp-I1LTtaT7HFW7a3kI9pwMc",
-    "refreshToken": "d43167626c07f2cc8d008a560f63318488870e71b9e7c9846812e673367ac0d6d9100443a6a31e9b"
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3M2M2MzM1OWVkMjgwMDAxYjUxMzFiZCIsImlhdCI6MTczMjAxMDgwNSwiZXhwIjoxNzMyMDEyMDA1fQ.aHxpMXlexwcliVFvzqei8P8wjU_2G3d7kCFv0FF_mlQ",
+    "refreshToken": "b89af30de13083e621a2d6537abb46b28a6db0d5f27ae50d79f4225e4bf1eadfc4ae3a9120c8e419"
 }
 Response body:
 {
     "success": true,
     "user": {
-        "email": "user960a04@yandex.ru",
-        "name": "Userc65857"
+        "email": "user5710a6@yandex.ru",
+        "name": "Usere3a400"
     },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Mzg4ZGE4OWVkMjgwMDAxYjUxMGM1NyIsImlhdCI6MTczMTc1OTUyOCwiZXhwIjoxNzMxNzYwNzI4fQ.UfhDSksSPJyTtHSQV_yYp-I1LTtaT7HFW7a3kI9pwMc",
-    "refreshToken": "d43167626c07f2cc8d008a560f63318488870e71b9e7c9846812e673367ac0d6d9100443a6a31e9b"
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3M2M2MzM1OWVkMjgwMDAxYjUxMzFiZCIsImlhdCI6MTczMjAxMDgwNSwiZXhwIjoxNzMyMDEyMDA1fQ.aHxpMXlexwcliVFvzqei8P8wjU_2G3d7kCFv0FF_mlQ",
+    "refreshToken": "b89af30de13083e621a2d6537abb46b28a6db0d5f27ae50d79f4225e4bf1eadfc4ae3a9120c8e419"
 }
-Логин с данными - email: invaliduser960a04@yandex.ru, password: wrongPassword, name: Userc65857
+Логин с данными - email: invaliduser5710a6@yandex.ru, password: wrongPassword, name: Usere3a400
 Пользователь успешно вошел в систему
 Delete Response Code: 202
 {
@@ -95,48 +95,48 @@ Delete Response Body:
 Пользователь успешно удален
 ]]></system-out>
   </testcase>
-  <testcase name="loginWithExistingUserTest" classname="apiTests.UserLoginTest" time="1.982">
-    <system-out><![CDATA[Пользователь успешно создан: userdd5644@yandex.ru
+  <testcase name="loginWithExistingUserTest" classname="apiTests.UserLoginTest" time="2.275">
+    <system-out><![CDATA[Пользователь успешно создан: user7b3e5e@yandex.ru
 Response Code: 200
 {
     "success": true,
     "user": {
-        "email": "userdd5644@yandex.ru",
-        "name": "Userfe152b"
+        "email": "user7b3e5e@yandex.ru",
+        "name": "User047d84"
     },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Mzg4ZGFiOWVkMjgwMDAxYjUxMGM1OSIsImlhdCI6MTczMTc1OTUzMSwiZXhwIjoxNzMxNzYwNzMxfQ.Gb8QYbNjOWj5PGjfiG_1ndY6QpyULLBUjmBvZ9jW3m8",
-    "refreshToken": "277a62284cbc7ac5ba48b860fa80d78e15a1c00129d815940b6716e56a8fda01120469ef3a868ad5"
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3M2M2MzM3OWVkMjgwMDAxYjUxMzFiZiIsImlhdCI6MTczMjAxMDgwNywiZXhwIjoxNzMyMDEyMDA3fQ.1k_4f_uZicKhZjeAosepP4CK1K8zwro2aEd8C0aSg98",
+    "refreshToken": "4161ee8e810abbbea43ecaa6dc55458616fba4271319b62018063b3bb924337c3954080ca835c98a"
 }
 Response body:
 {
     "success": true,
     "user": {
-        "email": "userdd5644@yandex.ru",
-        "name": "Userfe152b"
+        "email": "user7b3e5e@yandex.ru",
+        "name": "User047d84"
     },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Mzg4ZGFiOWVkMjgwMDAxYjUxMGM1OSIsImlhdCI6MTczMTc1OTUzMSwiZXhwIjoxNzMxNzYwNzMxfQ.Gb8QYbNjOWj5PGjfiG_1ndY6QpyULLBUjmBvZ9jW3m8",
-    "refreshToken": "277a62284cbc7ac5ba48b860fa80d78e15a1c00129d815940b6716e56a8fda01120469ef3a868ad5"
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3M2M2MzM3OWVkMjgwMDAxYjUxMzFiZiIsImlhdCI6MTczMjAxMDgwNywiZXhwIjoxNzMyMDEyMDA3fQ.1k_4f_uZicKhZjeAosepP4CK1K8zwro2aEd8C0aSg98",
+    "refreshToken": "4161ee8e810abbbea43ecaa6dc55458616fba4271319b62018063b3bb924337c3954080ca835c98a"
 }
-Логин с данными - email: userdd5644@yandex.ru, password: passb7acde, name: Userfe152b
+Логин с данными - email: user7b3e5e@yandex.ru, password: pass5205de, name: User047d84
 Пользователь успешно вошел в систему
 Response Code: 200
 {
     "success": true,
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Mzg4ZGFiOWVkMjgwMDAxYjUxMGM1OSIsImlhdCI6MTczMTc1OTUzMSwiZXhwIjoxNzMxNzYwNzMxfQ.Gb8QYbNjOWj5PGjfiG_1ndY6QpyULLBUjmBvZ9jW3m8",
-    "refreshToken": "1cfd82bd13908946b13b9e2607bc022a64feabbd51ec9fc78702ac0941e5d97fc62084b308ab991b",
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3M2M2MzM3OWVkMjgwMDAxYjUxMzFiZiIsImlhdCI6MTczMjAxMDgwNywiZXhwIjoxNzMyMDEyMDA3fQ.1k_4f_uZicKhZjeAosepP4CK1K8zwro2aEd8C0aSg98",
+    "refreshToken": "1240fdc2cd76aebe1be1215e76f8343fb9062859d9cd2a81c00888c770c79d52b9746b900fa5d8ce",
     "user": {
-        "email": "userdd5644@yandex.ru",
-        "name": "Userfe152b"
+        "email": "user7b3e5e@yandex.ru",
+        "name": "User047d84"
     }
 }
 Response Body:
 {
     "success": true,
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Mzg4ZGFiOWVkMjgwMDAxYjUxMGM1OSIsImlhdCI6MTczMTc1OTUzMSwiZXhwIjoxNzMxNzYwNzMxfQ.Gb8QYbNjOWj5PGjfiG_1ndY6QpyULLBUjmBvZ9jW3m8",
-    "refreshToken": "1cfd82bd13908946b13b9e2607bc022a64feabbd51ec9fc78702ac0941e5d97fc62084b308ab991b",
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3M2M2MzM3OWVkMjgwMDAxYjUxMzFiZiIsImlhdCI6MTczMjAxMDgwNywiZXhwIjoxNzMyMDEyMDA3fQ.1k_4f_uZicKhZjeAosepP4CK1K8zwro2aEd8C0aSg98",
+    "refreshToken": "1240fdc2cd76aebe1be1215e76f8343fb9062859d9cd2a81c00888c770c79d52b9746b900fa5d8ce",
     "user": {
-        "email": "userdd5644@yandex.ru",
-        "name": "Userfe152b"
+        "email": "user7b3e5e@yandex.ru",
+        "name": "User047d84"
     }
 }
 Delete Response Code: 202

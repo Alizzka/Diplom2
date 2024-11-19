@@ -1,6 +1,6 @@
 package apiTests;
 
-import io.qameta.allure.Step;
+import io.qameta.allure.Description;
 import io.restassured.response.Response;
 import org.junit.Test;
 
@@ -10,7 +10,7 @@ public class UserDataUpdateTest extends MethodsUserCreation {
 
     // Для авторизованного пользователя
     @Test
-    @Step("Изменение email пользователя с авторизацией")
+    @Description("Изменение email пользователя с авторизацией")
     public void updateUserWithAuthorizationEmail() {
         // Генерация случайных данных для пользователя
         String email = generateUniqueEmail();
@@ -38,7 +38,7 @@ public class UserDataUpdateTest extends MethodsUserCreation {
     }
 
     @Test
-    @Step("Изменение имени пользователя с авторизацией")
+    @Description("Изменение имени пользователя с авторизацией")
     public void updateUserWithAuthorizationName() {
         String email = generateUniqueEmail();
         String password = generateUniquePassword();
@@ -58,7 +58,7 @@ public class UserDataUpdateTest extends MethodsUserCreation {
     }
 
     @Test
-    @Step("Изменение пароля пользователя с авторизацией")
+    @Description("Изменение пароля пользователя с авторизацией")
     public void updateUserWithAuthorizationPassword() {
         String email = generateUniqueEmail();
         String password = generateUniquePassword();
@@ -77,7 +77,7 @@ public class UserDataUpdateTest extends MethodsUserCreation {
     }
 
     @Test
-    @Step("Изменение всех данных пользователя с авторизацией")
+    @Description("Изменение всех данных пользователя с авторизацией")
     public void updateUserWithAuthorizationAllFields() {
         String email = generateUniqueEmail();
         String password = generateUniquePassword();
@@ -97,7 +97,7 @@ public class UserDataUpdateTest extends MethodsUserCreation {
     }
 
     @Test
-    @Step("Изменение email пользователя без авторизации")
+    @Description("Изменение email пользователя без авторизации")
     public void updateUserWithoutAuthorizationEmail() {
         String email = generateUniqueEmail();
         String password = generateUniquePassword();
@@ -117,7 +117,7 @@ public class UserDataUpdateTest extends MethodsUserCreation {
     }
 
     @Test
-    @Step("Изменение имени пользователя без авторизации")
+    @Description("Изменение имени пользователя без авторизации")
     public void updateUserWithoutAuthorizationName() {
         String email = generateUniqueEmail();
         String password = generateUniquePassword();
@@ -141,7 +141,7 @@ public class UserDataUpdateTest extends MethodsUserCreation {
     }
 
     @Test
-    @Step("Изменение пароля пользователя без авторизации")
+    @Description("Изменение пароля пользователя без авторизации")
     public void updateUserWithoutAuthorizationPassword() {
         String email = generateUniqueEmail();
         String password = generateUniquePassword();
@@ -159,7 +159,7 @@ public class UserDataUpdateTest extends MethodsUserCreation {
     }
 
     @Test
-    @Step("Изменение всех данных пользователя без авторизации")
+    @Description("Изменение всех данных пользователя без авторизации")
     public void updateUserWithoutAuthorizationAllData() {
         String email = generateUniqueEmail();
         String password = generateUniquePassword();

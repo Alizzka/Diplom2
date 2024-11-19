@@ -1,7 +1,7 @@
 package apiTests;
 
+import io.qameta.allure.Description;
 import org.junit.Test;
-import io.qameta.allure.Step;
 import io.restassured.response.Response;
 
 public class OrderCreationTest extends MethodsUserCreation {
@@ -9,7 +9,7 @@ public class OrderCreationTest extends MethodsUserCreation {
     private MethodsUserCreation methodsUserLogin = new MethodsUserCreation();
 
     @Test
-    @Step("Создание заказа с авторизацией и с ингредиентами")
+    @Description("Создание заказа с авторизацией и с ингредиентами")
     public void createOrderWithAuthorization() {
         // Генерация уникальных данных для пользователя
         String email = generateUniqueEmail();
@@ -33,7 +33,7 @@ public class OrderCreationTest extends MethodsUserCreation {
     }
 
     @Test
-    @Step("Создание заказа с авторизацией но без ингредиентов")
+    @Description("Создание заказа с авторизацией но без ингредиентов")
     public void createOrderWithAuthorizationAndNoIngredients() {
         // Генерация уникальных данных для пользователя
         String email = generateUniqueEmail();
@@ -58,7 +58,7 @@ public class OrderCreationTest extends MethodsUserCreation {
 
     // *Баг. Заказ создается, хотя по документации не должен создаваться без авторизации
     @Test
-    @Step("Создание заказа без авторизации, с ингредиентами")
+    @Description("Создание заказа без авторизации, с ингредиентами")
     public void createOrderWithNoAuthorization() {
         // Создание заказа без токена авторизации
         Response orderResponse = MethodsUserCreation.createOrderWithoutAuthorization();
@@ -69,7 +69,7 @@ public class OrderCreationTest extends MethodsUserCreation {
 
     // *Баг так как есть баг в создании заказа без авторизации
     @Test
-    @Step("Создание заказа без авторизации и без ингредиентов")
+    @Description("Создание заказа без авторизации и без ингредиентов")
     public void createOrderWithNoAuthorizationAndIngredients() {
         // Создание заказа без токена авторизации и без ингредиентов
         Response orderResponseWithoutAuthorization = MethodsUserCreation.createOrderWithoutAuthorizationAndIngredients();
@@ -85,7 +85,7 @@ public class OrderCreationTest extends MethodsUserCreation {
     // *Баг. Ожидается код ошибки 500 по документации, а фактически 400, но чтобы все равно удалить
     // пользователя после теста добавилв конструкцию try catch
     @Test
-    @Step("Создание заказа с неверным хешем ингредиентов")
+    @Description("Создание заказа с неверным хешем ингредиентов")
     public void createOrderWithInvalidIngredientsHash() {
         // Генерация уникальных данных для пользователя
         String email = generateUniqueEmail();

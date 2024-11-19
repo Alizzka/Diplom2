@@ -1,7 +1,6 @@
 package apiTests;
 
 import io.qameta.allure.Description;
-import io.qameta.allure.Step;
 import io.restassured.response.Response;
 import org.junit.Test;
 
@@ -11,7 +10,6 @@ public class UserCreationTest extends MethodsUserCreation {
 
     @Test
     @Description("Создание уникального пользователя и удаление после проверки")
-    @Step("Создание уникального пользователя")
     public void creationUniqueUser() {
         // Генерация случайных данных для пользователя
         String email = generateUniqueEmail();
@@ -27,7 +25,6 @@ public class UserCreationTest extends MethodsUserCreation {
 
     @Test
     @Description("Создание зарегистрированного пользователя и проверка на ошибку повторной регистрации")
-    @Step("Создание пользователя, который уже зарегистрирован")
     public void createExistingUser() {
         // Генерация случайных данных для пользователя
         String email = generateUniqueEmail();
@@ -48,7 +45,6 @@ public class UserCreationTest extends MethodsUserCreation {
 
     @Test
     @Description("Создание пользователя без пароля и проверка на ошибку")
-    @Step("Создание пользователя без обязательного поля - password")
     public void createUserWithoutRequiredFieldPassword() {
         // Генерация случайных данных для пользователя без password
         String email = generateUniqueEmail();
@@ -61,7 +57,6 @@ public class UserCreationTest extends MethodsUserCreation {
 
     @Test
     @Description("Создание пользователя без email и проверка на ошибку")
-    @Step("Создание пользователя без обязательного поля - email")
     public void createUserWithoutRequiredFieldEmail() {
         // Генерация случайных данных для пользователя без email
         String password = generateUniquePassword();
@@ -74,7 +69,6 @@ public class UserCreationTest extends MethodsUserCreation {
 
     @Test
     @Description("Создание пользователя без имени и проверка на ошибку")
-    @Step("Создание пользователя без обязательного поля - name")
     public void createUserWithoutRequiredFieldName() {
         // Генерация случайных данных для пользователя без name
         String password = generateUniquePassword();

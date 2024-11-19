@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="apiTests.UserDataUpdateTest" time="21.298" tests="8" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="apiTests.UserDataUpdateTest" time="20.406" tests="8" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Amazon Corretto\jdk17.0.12_7\bin"/>
-    <property name="sun.java.command" value="C:\Users\Anastasia\AppData\Local\Temp\surefire9097445698168264220\surefirebooter-20241116151737631_3.jar C:\Users\Anastasia\AppData\Local\Temp\surefire9097445698168264220 2024-11-16T15-17-37_211-jvmRun1 surefire-20241116151737631_1tmp surefire_0-20241116151737631_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Anastasia\AppData\Local\Temp\surefire15116704192845150125\surefirebooter-20241119130558690_3.jar C:\Users\Anastasia\AppData\Local\Temp\surefire15116704192845150125 2024-11-19T13-05-58_348-jvmRun1 surefire-20241119130558690_1tmp surefire_0-20241119130558690_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Anastasia\IdeaProjects\Diplom_2\target\test-classes;C:\Users\Anastasia\IdeaProjects\Diplom_2\target\classes;C:\Users\Anastasia\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Anastasia\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Anastasia\.m2\repository\io\rest-assured\rest-assured\4.5.1\rest-assured-4.5.1.jar;C:\Users\Anastasia\.m2\repository\org\codehaus\groovy\groovy\3.0.9\groovy-3.0.9.jar;C:\Users\Anastasia\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.9\groovy-xml-3.0.9.jar;C:\Users\Anastasia\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Anastasia\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Anastasia\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Anastasia\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Anastasia\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Anastasia\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Anastasia\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Anastasia\.m2\repository\io\rest-assured\json-path\4.5.1\json-path-4.5.1.jar;C:\Users\Anastasia\.m2\repository\org\codehaus\groovy\groovy-json\3.0.9\groovy-json-3.0.9.jar;C:\Users\Anastasia\.m2\repository\io\rest-assured\rest-assured-common\4.5.1\rest-assured-common-4.5.1.jar;C:\Users\Anastasia\.m2\repository\io\rest-assured\xml-path\4.5.1\xml-path-4.5.1.jar;C:\Users\Anastasia\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Anastasia\.m2\repository\io\qameta\allure\allure-junit4\2.17.3\allure-junit4-2.17.3.jar;C:\Users\Anastasia\.m2\repository\io\qameta\allure\allure-java-commons\2.17.3\allure-java-commons-2.17.3.jar;C:\Users\Anastasia\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Anastasia\.m2\repository\io\qameta\allure\allure-model\2.17.3\allure-model-2.17.3.jar;C:\Users\Anastasia\.m2\repository\io\qameta\allure\allure-rest-assured\2.17.3\allure-rest-assured-2.17.3.jar;C:\Users\Anastasia\.m2\repository\io\qameta\allure\allure-attachments\2.17.3\allure-attachments-2.17.3.jar;C:\Users\Anastasia\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\Anastasia\.m2\repository\com\google\code\gson\gson\2.8.9\gson-2.8.9.jar;"/>
     <property name="allure.results.directory" value="C:\Users\Anastasia\IdeaProjects\Diplom_2\target/allure-results"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Anastasia\AppData\Local\Temp\surefire9097445698168264220\surefirebooter-20241116151737631_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Anastasia\AppData\Local\Temp\surefire15116704192845150125\surefirebooter-20241119130558690_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.12+7-LTS"/>
@@ -58,44 +58,44 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="updateUserWithAuthorizationName" classname="apiTests.UserDataUpdateTest" time="4.041">
-    <system-out><![CDATA[Пользователь успешно создан: userafa04c@yandex.ru
+  <testcase name="updateUserWithAuthorizationName" classname="apiTests.UserDataUpdateTest" time="2.27">
+    <system-out><![CDATA[Пользователь успешно создан: user0fff8a@yandex.ru
 Response Code: 200
 {
     "success": true,
     "user": {
-        "email": "userafa04c@yandex.ru",
-        "name": "User96f903"
+        "email": "user0fff8a@yandex.ru",
+        "name": "User65b3ff"
     },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Mzg4ZDkzOWVkMjgwMDAxYjUxMGM0NyIsImlhdCI6MTczMTc1OTUwNywiZXhwIjoxNzMxNzYwNzA3fQ.tuqBUSOqGr28WvXkLWxEhlNcHLvnFCWO6ouQ8DYKFPQ",
-    "refreshToken": "c57d3412bc3c37e6cfcf6231e2588c3d5f4a715f214ab9add02c470e227b69f3dd129101c4b4c4e5"
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3M2M2MzIwOWVkMjgwMDAxYjUxMzFhZCIsImlhdCI6MTczMjAxMDc4NCwiZXhwIjoxNzMyMDExOTg0fQ.NlcRU406-_Vmu2Vy6uDp11SuLDBTiVC3uPdzNdrXI8E",
+    "refreshToken": "78a512a02044bd9f4a950aa128711433bb05a76e17a70504149e901f613d71d946285a66c8174202"
 }
 Response body:
 {
     "success": true,
     "user": {
-        "email": "userafa04c@yandex.ru",
-        "name": "User96f903"
+        "email": "user0fff8a@yandex.ru",
+        "name": "User65b3ff"
     },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Mzg4ZDkzOWVkMjgwMDAxYjUxMGM0NyIsImlhdCI6MTczMTc1OTUwNywiZXhwIjoxNzMxNzYwNzA3fQ.tuqBUSOqGr28WvXkLWxEhlNcHLvnFCWO6ouQ8DYKFPQ",
-    "refreshToken": "c57d3412bc3c37e6cfcf6231e2588c3d5f4a715f214ab9add02c470e227b69f3dd129101c4b4c4e5"
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3M2M2MzIwOWVkMjgwMDAxYjUxMzFhZCIsImlhdCI6MTczMjAxMDc4NCwiZXhwIjoxNzMyMDExOTg0fQ.NlcRU406-_Vmu2Vy6uDp11SuLDBTiVC3uPdzNdrXI8E",
+    "refreshToken": "78a512a02044bd9f4a950aa128711433bb05a76e17a70504149e901f613d71d946285a66c8174202"
 }
 Запрос на обновление name:
-Токен авторизации: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Mzg4ZDkzOWVkMjgwMDAxYjUxMGM0NyIsImlhdCI6MTczMTc1OTUwNywiZXhwIjoxNzMxNzYwNzA3fQ.tuqBUSOqGr28WvXkLWxEhlNcHLvnFCWO6ouQ8DYKFPQ
-Тело запроса: {"email":"userafa04c@yandex.ru", "name":"Userc8c367", "password":"pass89778d"}
+Токен авторизации: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3M2M2MzIwOWVkMjgwMDAxYjUxMzFhZCIsImlhdCI6MTczMjAxMDc4NCwiZXhwIjoxNzMyMDExOTg0fQ.NlcRU406-_Vmu2Vy6uDp11SuLDBTiVC3uPdzNdrXI8E
+Тело запроса: {"email":"user0fff8a@yandex.ru", "name":"Userb9dff9", "password":"passd7fdfe"}
 Ответ после обновления name:
 {
     "success": true,
     "user": {
-        "email": "userafa04c@yandex.ru",
-        "name": "Userc8c367"
+        "email": "user0fff8a@yandex.ru",
+        "name": "Userb9dff9"
     }
 }
 {
     "success": true,
     "user": {
-        "email": "userafa04c@yandex.ru",
-        "name": "Userc8c367"
+        "email": "user0fff8a@yandex.ru",
+        "name": "Userb9dff9"
     }
 }
 Delete Response Code: 202
@@ -111,44 +111,44 @@ Delete Response Body:
 Пользователь успешно удален
 ]]></system-out>
   </testcase>
-  <testcase name="updateUserWithAuthorizationAllFields" classname="apiTests.UserDataUpdateTest" time="3.804">
-    <system-out><![CDATA[Пользователь успешно создан: user7eb213@yandex.ru
+  <testcase name="updateUserWithAuthorizationAllFields" classname="apiTests.UserDataUpdateTest" time="2.19">
+    <system-out><![CDATA[Пользователь успешно создан: userb893b6@yandex.ru
 Response Code: 200
 {
     "success": true,
     "user": {
-        "email": "user7eb213@yandex.ru",
-        "name": "Userca0b46"
+        "email": "userb893b6@yandex.ru",
+        "name": "User1c9454"
     },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Mzg4ZDk3OWVkMjgwMDAxYjUxMGM0OSIsImlhdCI6MTczMTc1OTUxMSwiZXhwIjoxNzMxNzYwNzExfQ.YJh3kYFg7l3B2lDvPjql1leYbZ3rNT0ZCKtFMS_ykxk",
-    "refreshToken": "337e10c013df1b7bcf1aaeec3b499be55502de11122b61048538281d1ac6fa15fc57b7e9335c9a2e"
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3M2M2MzIyOWVkMjgwMDAxYjUxMzFhZiIsImlhdCI6MTczMjAxMDc4NiwiZXhwIjoxNzMyMDExOTg2fQ.32x6D1x9PtjtTQcSMRhnhef-OEJWv_8pGFr2ggmk20I",
+    "refreshToken": "49933fcad3fe842655248815a3d9b5a6ac01694503022e002d0e34026ce22edfb6c798be4f700be0"
 }
 Response body:
 {
     "success": true,
     "user": {
-        "email": "user7eb213@yandex.ru",
-        "name": "Userca0b46"
+        "email": "userb893b6@yandex.ru",
+        "name": "User1c9454"
     },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Mzg4ZDk3OWVkMjgwMDAxYjUxMGM0OSIsImlhdCI6MTczMTc1OTUxMSwiZXhwIjoxNzMxNzYwNzExfQ.YJh3kYFg7l3B2lDvPjql1leYbZ3rNT0ZCKtFMS_ykxk",
-    "refreshToken": "337e10c013df1b7bcf1aaeec3b499be55502de11122b61048538281d1ac6fa15fc57b7e9335c9a2e"
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3M2M2MzIyOWVkMjgwMDAxYjUxMzFhZiIsImlhdCI6MTczMjAxMDc4NiwiZXhwIjoxNzMyMDExOTg2fQ.32x6D1x9PtjtTQcSMRhnhef-OEJWv_8pGFr2ggmk20I",
+    "refreshToken": "49933fcad3fe842655248815a3d9b5a6ac01694503022e002d0e34026ce22edfb6c798be4f700be0"
 }
 Запрос на обновление всех полей:
-Токен авторизации: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Mzg4ZDk3OWVkMjgwMDAxYjUxMGM0OSIsImlhdCI6MTczMTc1OTUxMSwiZXhwIjoxNzMxNzYwNzExfQ.YJh3kYFg7l3B2lDvPjql1leYbZ3rNT0ZCKtFMS_ykxk
-Тело запроса: {"email":"useraac703@yandex.ru", "name":"Userc4f5d0", "password":"passe93149"}
+Токен авторизации: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3M2M2MzIyOWVkMjgwMDAxYjUxMzFhZiIsImlhdCI6MTczMjAxMDc4NiwiZXhwIjoxNzMyMDExOTg2fQ.32x6D1x9PtjtTQcSMRhnhef-OEJWv_8pGFr2ggmk20I
+Тело запроса: {"email":"user9b7bd8@yandex.ru", "name":"Userbcc4f0", "password":"pass8026a2"}
 Ответ после обновления всех полей:
 {
     "success": true,
     "user": {
-        "email": "useraac703@yandex.ru",
-        "name": "Userc4f5d0"
+        "email": "user9b7bd8@yandex.ru",
+        "name": "Userbcc4f0"
     }
 }
 {
     "success": true,
     "user": {
-        "email": "useraac703@yandex.ru",
-        "name": "Userc4f5d0"
+        "email": "user9b7bd8@yandex.ru",
+        "name": "Userbcc4f0"
     }
 }
 Delete Response Code: 202
@@ -164,44 +164,44 @@ Delete Response Body:
 Пользователь успешно удален
 ]]></system-out>
   </testcase>
-  <testcase name="updateUserWithAuthorizationEmail" classname="apiTests.UserDataUpdateTest" time="2.029">
-    <system-out><![CDATA[Пользователь успешно создан: user27834c@yandex.ru
+  <testcase name="updateUserWithAuthorizationEmail" classname="apiTests.UserDataUpdateTest" time="3.743">
+    <system-out><![CDATA[Пользователь успешно создан: user22087b@yandex.ru
 Response Code: 200
 {
     "success": true,
     "user": {
-        "email": "user27834c@yandex.ru",
-        "name": "User9ebebf"
+        "email": "user22087b@yandex.ru",
+        "name": "Userbff64d"
     },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Mzg4ZDlhOWVkMjgwMDAxYjUxMGM0YiIsImlhdCI6MTczMTc1OTUxNCwiZXhwIjoxNzMxNzYwNzE0fQ.Ma3XS9VL24YSOVCW7ZdXUlf_0PI_0dSPwxWJYFfomuE",
-    "refreshToken": "7fe43d6139e098dd3db837f142ca489cee187b27474b8826d3fd8a7e3710912d43b217c4920d868a"
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3M2M2MzI1OWVkMjgwMDAxYjUxMzFiMSIsImlhdCI6MTczMjAxMDc4OSwiZXhwIjoxNzMyMDExOTg5fQ.VzoltQKu4wYgEioYS5AVFgsmbaV5qQ7P5dpbOq1mvCM",
+    "refreshToken": "c3d778ca6a0b77ae9c765fb0413a5cf385eaecee404a80bbd2bd189afb95e996e443a5ff3b696527"
 }
 Response body:
 {
     "success": true,
     "user": {
-        "email": "user27834c@yandex.ru",
-        "name": "User9ebebf"
+        "email": "user22087b@yandex.ru",
+        "name": "Userbff64d"
     },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Mzg4ZDlhOWVkMjgwMDAxYjUxMGM0YiIsImlhdCI6MTczMTc1OTUxNCwiZXhwIjoxNzMxNzYwNzE0fQ.Ma3XS9VL24YSOVCW7ZdXUlf_0PI_0dSPwxWJYFfomuE",
-    "refreshToken": "7fe43d6139e098dd3db837f142ca489cee187b27474b8826d3fd8a7e3710912d43b217c4920d868a"
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3M2M2MzI1OWVkMjgwMDAxYjUxMzFiMSIsImlhdCI6MTczMjAxMDc4OSwiZXhwIjoxNzMyMDExOTg5fQ.VzoltQKu4wYgEioYS5AVFgsmbaV5qQ7P5dpbOq1mvCM",
+    "refreshToken": "c3d778ca6a0b77ae9c765fb0413a5cf385eaecee404a80bbd2bd189afb95e996e443a5ff3b696527"
 }
 Запрос на обновление email:
-Токен авторизации: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Mzg4ZDlhOWVkMjgwMDAxYjUxMGM0YiIsImlhdCI6MTczMTc1OTUxNCwiZXhwIjoxNzMxNzYwNzE0fQ.Ma3XS9VL24YSOVCW7ZdXUlf_0PI_0dSPwxWJYFfomuE
-Тело запроса: {"email":"userdea29a@yandex.ru", "name":"User9ebebf", "password":"passcd9323"}
+Токен авторизации: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3M2M2MzI1OWVkMjgwMDAxYjUxMzFiMSIsImlhdCI6MTczMjAxMDc4OSwiZXhwIjoxNzMyMDExOTg5fQ.VzoltQKu4wYgEioYS5AVFgsmbaV5qQ7P5dpbOq1mvCM
+Тело запроса: {"email":"user19dfc8@yandex.ru", "name":"Userbff64d", "password":"passd039f1"}
 Ответ после обновления email:
 {
     "success": true,
     "user": {
-        "email": "userdea29a@yandex.ru",
-        "name": "User9ebebf"
+        "email": "user19dfc8@yandex.ru",
+        "name": "Userbff64d"
     }
 }
 {
     "success": true,
     "user": {
-        "email": "userdea29a@yandex.ru",
-        "name": "User9ebebf"
+        "email": "user19dfc8@yandex.ru",
+        "name": "Userbff64d"
     }
 }
 Delete Response Code: 202
@@ -217,30 +217,30 @@ Delete Response Body:
 Пользователь успешно удален
 ]]></system-out>
   </testcase>
-  <testcase name="updateUserWithoutAuthorizationName" classname="apiTests.UserDataUpdateTest" time="2.521">
-    <system-out><![CDATA[Пользователь успешно создан: userc7b191@yandex.ru
+  <testcase name="updateUserWithoutAuthorizationName" classname="apiTests.UserDataUpdateTest" time="2.207">
+    <system-out><![CDATA[Пользователь успешно создан: userd87bb1@yandex.ru
 Response Code: 200
 {
     "success": true,
     "user": {
-        "email": "userc7b191@yandex.ru",
-        "name": "Userb1b94c"
+        "email": "userd87bb1@yandex.ru",
+        "name": "Userc51243"
     },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Mzg4ZDljOWVkMjgwMDAxYjUxMGM0ZCIsImlhdCI6MTczMTc1OTUxNiwiZXhwIjoxNzMxNzYwNzE2fQ.5AF_wt3UKWmj91YlgIOjSyPQZ9uB7QutULUG7i5oPd0",
-    "refreshToken": "1172ed3cd6fc696e65e9ca862c5738beb5df4d52c5d6e371ba8bce4693b8d4701bc0bb71fa66a564"
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3M2M2MzI4OWVkMjgwMDAxYjUxMzFiMyIsImlhdCI6MTczMjAxMDc5MiwiZXhwIjoxNzMyMDExOTkyfQ._4qkPyY7DWaqnivp05KxI5PLZ5rVxtsfVClQGkfjGWw",
+    "refreshToken": "a00fc31cbaf2c8e5a9c699aef195b1bf542d24b2d0e263ec4c97d2bdf8a9a4261bed2f79cbafe447"
 }
 Response body:
 {
     "success": true,
     "user": {
-        "email": "userc7b191@yandex.ru",
-        "name": "Userb1b94c"
+        "email": "userd87bb1@yandex.ru",
+        "name": "Userc51243"
     },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Mzg4ZDljOWVkMjgwMDAxYjUxMGM0ZCIsImlhdCI6MTczMTc1OTUxNiwiZXhwIjoxNzMxNzYwNzE2fQ.5AF_wt3UKWmj91YlgIOjSyPQZ9uB7QutULUG7i5oPd0",
-    "refreshToken": "1172ed3cd6fc696e65e9ca862c5738beb5df4d52c5d6e371ba8bce4693b8d4701bc0bb71fa66a564"
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3M2M2MzI4OWVkMjgwMDAxYjUxMzFiMyIsImlhdCI6MTczMjAxMDc5MiwiZXhwIjoxNzMyMDExOTkyfQ._4qkPyY7DWaqnivp05KxI5PLZ5rVxtsfVClQGkfjGWw",
+    "refreshToken": "a00fc31cbaf2c8e5a9c699aef195b1bf542d24b2d0e263ec4c97d2bdf8a9a4261bed2f79cbafe447"
 }
 Запрос на обновление name без авторизации:
-Тело запроса: {"email":"userc7b191@yandex.ru", "name":"User73c97f", "password":"passd01b5e"}
+Тело запроса: {"email":"userd87bb1@yandex.ru", "name":"Userd0a706", "password":"pass325485"}
 Ответ после обновления email:
 {
     "success": false,
@@ -263,30 +263,30 @@ Delete Response Body:
 Пользователь успешно удален
 ]]></system-out>
   </testcase>
-  <testcase name="updateUserWithoutAuthorizationPassword" classname="apiTests.UserDataUpdateTest" time="2.028">
-    <system-out><![CDATA[Пользователь успешно создан: user53666d@yandex.ru
+  <testcase name="updateUserWithoutAuthorizationPassword" classname="apiTests.UserDataUpdateTest" time="3.111">
+    <system-out><![CDATA[Пользователь успешно создан: user9d4da1@yandex.ru
 Response Code: 200
 {
     "success": true,
     "user": {
-        "email": "user53666d@yandex.ru",
-        "name": "User287b34"
+        "email": "user9d4da1@yandex.ru",
+        "name": "Userc2a59f"
     },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Mzg4ZDllOWVkMjgwMDAxYjUxMGM0ZiIsImlhdCI6MTczMTc1OTUxOCwiZXhwIjoxNzMxNzYwNzE4fQ.GGeBcjKuIhLE2yW703OJdawT0GAXVF47Z7pfQo9xFTk",
-    "refreshToken": "24e5f9e65170d1b0ed091d4271f00ddb26bee54fbd77049b64f75d2f548dc81ee57cffd53dab3a9b"
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3M2M2MzJhOWVkMjgwMDAxYjUxMzFiNSIsImlhdCI6MTczMjAxMDc5NCwiZXhwIjoxNzMyMDExOTk0fQ.z7MWllCYF6xoc_d8IQO36yWQvHsu9lFknafBKTbrhNg",
+    "refreshToken": "6c7ab9e091a30b4dbeda1f6cf8e0a333593ed6566bc7b2a20148770dc2332ae733aa9df2d9e875b8"
 }
 Response body:
 {
     "success": true,
     "user": {
-        "email": "user53666d@yandex.ru",
-        "name": "User287b34"
+        "email": "user9d4da1@yandex.ru",
+        "name": "Userc2a59f"
     },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Mzg4ZDllOWVkMjgwMDAxYjUxMGM0ZiIsImlhdCI6MTczMTc1OTUxOCwiZXhwIjoxNzMxNzYwNzE4fQ.GGeBcjKuIhLE2yW703OJdawT0GAXVF47Z7pfQo9xFTk",
-    "refreshToken": "24e5f9e65170d1b0ed091d4271f00ddb26bee54fbd77049b64f75d2f548dc81ee57cffd53dab3a9b"
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3M2M2MzJhOWVkMjgwMDAxYjUxMzFiNSIsImlhdCI6MTczMjAxMDc5NCwiZXhwIjoxNzMyMDExOTk0fQ.z7MWllCYF6xoc_d8IQO36yWQvHsu9lFknafBKTbrhNg",
+    "refreshToken": "6c7ab9e091a30b4dbeda1f6cf8e0a333593ed6566bc7b2a20148770dc2332ae733aa9df2d9e875b8"
 }
 Запрос на обновление password без авторизации:
-Тело запроса: {"email":"user53666d@yandex.ru", "name":"User287b34", "password":"pass452f68"}
+Тело запроса: {"email":"user9d4da1@yandex.ru", "name":"Userc2a59f", "password":"pass04e925"}
 Ответ после обновления email:
 {
     "success": false,
@@ -309,44 +309,44 @@ Delete Response Body:
 Пользователь успешно удален
 ]]></system-out>
   </testcase>
-  <testcase name="updateUserWithAuthorizationPassword" classname="apiTests.UserDataUpdateTest" time="2.749">
-    <system-out><![CDATA[Пользователь успешно создан: user514c92@yandex.ru
+  <testcase name="updateUserWithAuthorizationPassword" classname="apiTests.UserDataUpdateTest" time="2.781">
+    <system-out><![CDATA[Пользователь успешно создан: userb5392c@yandex.ru
 Response Code: 200
 {
     "success": true,
     "user": {
-        "email": "user514c92@yandex.ru",
-        "name": "Usere5e49b"
+        "email": "userb5392c@yandex.ru",
+        "name": "User698287"
     },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Mzg4ZGEwOWVkMjgwMDAxYjUxMGM1MSIsImlhdCI6MTczMTc1OTUyMCwiZXhwIjoxNzMxNzYwNzIwfQ.SGlyzYHqRwnN7CkvH1LT9HVJzEGMdWL_jw9YgV64lWE",
-    "refreshToken": "6107c23816b09980d9490e2432b02f6fc7ede8df52e0b56ea8aba00593e71c8afb1535235f9b71c3"
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3M2M2MzJlOWVkMjgwMDAxYjUxMzFiNyIsImlhdCI6MTczMjAxMDc5OCwiZXhwIjoxNzMyMDExOTk4fQ.JMT2NJsXwZNSgjZhAKyuubd70go9_24Wbe7qfJ6Rvok",
+    "refreshToken": "82aa1b19e4dd62efe3f38462afdebb7e5892da2f3bac98c301923dce679b0ea194309cfba7fe117f"
 }
 Response body:
 {
     "success": true,
     "user": {
-        "email": "user514c92@yandex.ru",
-        "name": "Usere5e49b"
+        "email": "userb5392c@yandex.ru",
+        "name": "User698287"
     },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Mzg4ZGEwOWVkMjgwMDAxYjUxMGM1MSIsImlhdCI6MTczMTc1OTUyMCwiZXhwIjoxNzMxNzYwNzIwfQ.SGlyzYHqRwnN7CkvH1LT9HVJzEGMdWL_jw9YgV64lWE",
-    "refreshToken": "6107c23816b09980d9490e2432b02f6fc7ede8df52e0b56ea8aba00593e71c8afb1535235f9b71c3"
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3M2M2MzJlOWVkMjgwMDAxYjUxMzFiNyIsImlhdCI6MTczMjAxMDc5OCwiZXhwIjoxNzMyMDExOTk4fQ.JMT2NJsXwZNSgjZhAKyuubd70go9_24Wbe7qfJ6Rvok",
+    "refreshToken": "82aa1b19e4dd62efe3f38462afdebb7e5892da2f3bac98c301923dce679b0ea194309cfba7fe117f"
 }
 Запрос на обновление password:
-Токен авторизации: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Mzg4ZGEwOWVkMjgwMDAxYjUxMGM1MSIsImlhdCI6MTczMTc1OTUyMCwiZXhwIjoxNzMxNzYwNzIwfQ.SGlyzYHqRwnN7CkvH1LT9HVJzEGMdWL_jw9YgV64lWE
-Тело запроса: {"email":"user514c92@yandex.ru", "name":"Usere5e49b", "password":"passd455ac"}
+Токен авторизации: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3M2M2MzJlOWVkMjgwMDAxYjUxMzFiNyIsImlhdCI6MTczMjAxMDc5OCwiZXhwIjoxNzMyMDExOTk4fQ.JMT2NJsXwZNSgjZhAKyuubd70go9_24Wbe7qfJ6Rvok
+Тело запроса: {"email":"userb5392c@yandex.ru", "name":"User698287", "password":"pass08f193"}
 Ответ после обновления password:
 {
     "success": true,
     "user": {
-        "email": "user514c92@yandex.ru",
-        "name": "Usere5e49b"
+        "email": "userb5392c@yandex.ru",
+        "name": "User698287"
     }
 }
 {
     "success": true,
     "user": {
-        "email": "user514c92@yandex.ru",
-        "name": "Usere5e49b"
+        "email": "userb5392c@yandex.ru",
+        "name": "User698287"
     }
 }
 Delete Response Code: 202
@@ -362,30 +362,30 @@ Delete Response Body:
 Пользователь успешно удален
 ]]></system-out>
   </testcase>
-  <testcase name="updateUserWithoutAuthorizationAllData" classname="apiTests.UserDataUpdateTest" time="2.091">
-    <system-out><![CDATA[Пользователь успешно создан: user69c8e2@yandex.ru
+  <testcase name="updateUserWithoutAuthorizationAllData" classname="apiTests.UserDataUpdateTest" time="2.098">
+    <system-out><![CDATA[Пользователь успешно создан: user12b48e@yandex.ru
 Response Code: 200
 {
     "success": true,
     "user": {
-        "email": "user69c8e2@yandex.ru",
-        "name": "User0b4824"
+        "email": "user12b48e@yandex.ru",
+        "name": "User8525a1"
     },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Mzg4ZGEzOWVkMjgwMDAxYjUxMGM1MyIsImlhdCI6MTczMTc1OTUyMywiZXhwIjoxNzMxNzYwNzIzfQ.FjLafo4jJkpTnxP-Mu8mDbJFC0oEnpzz4HqRvZCDiso",
-    "refreshToken": "723d681d3a6316ce87a08d59a46f09d57bec734084dfb4e069bdf42ffc46e713934f74a67b60e492"
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3M2M2MzMwOWVkMjgwMDAxYjUxMzFiOSIsImlhdCI6MTczMjAxMDgwMCwiZXhwIjoxNzMyMDEyMDAwfQ.QZsGdHaXiJ02tdb-4-xKbtsV_xPv4KYWn6nhNIpPTZU",
+    "refreshToken": "10cef98d64b9b3fc9a1e3bc9eaad279775b6b1c3c982c990c79423e261ada1ce61293e8f07b9892f"
 }
 Response body:
 {
     "success": true,
     "user": {
-        "email": "user69c8e2@yandex.ru",
-        "name": "User0b4824"
+        "email": "user12b48e@yandex.ru",
+        "name": "User8525a1"
     },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Mzg4ZGEzOWVkMjgwMDAxYjUxMGM1MyIsImlhdCI6MTczMTc1OTUyMywiZXhwIjoxNzMxNzYwNzIzfQ.FjLafo4jJkpTnxP-Mu8mDbJFC0oEnpzz4HqRvZCDiso",
-    "refreshToken": "723d681d3a6316ce87a08d59a46f09d57bec734084dfb4e069bdf42ffc46e713934f74a67b60e492"
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3M2M2MzMwOWVkMjgwMDAxYjUxMzFiOSIsImlhdCI6MTczMjAxMDgwMCwiZXhwIjoxNzMyMDEyMDAwfQ.QZsGdHaXiJ02tdb-4-xKbtsV_xPv4KYWn6nhNIpPTZU",
+    "refreshToken": "10cef98d64b9b3fc9a1e3bc9eaad279775b6b1c3c982c990c79423e261ada1ce61293e8f07b9892f"
 }
 Запрос на обновление всех данных без авторизации:
-Тело запроса: {"email":"userb749e2@yandex.ru", "name":"Userb34e36", "password":"pass17054a"}
+Тело запроса: {"email":"user2ac8b1@yandex.ru", "name":"User953145", "password":"passcbb010"}
 Ответ после обновления email:
 {
     "success": false,
@@ -408,30 +408,30 @@ Delete Response Body:
 Пользователь успешно удален
 ]]></system-out>
   </testcase>
-  <testcase name="updateUserWithoutAuthorizationEmail" classname="apiTests.UserDataUpdateTest" time="2.028">
-    <system-out><![CDATA[Пользователь успешно создан: user29f8dc@yandex.ru
+  <testcase name="updateUserWithoutAuthorizationEmail" classname="apiTests.UserDataUpdateTest" time="1.993">
+    <system-out><![CDATA[Пользователь успешно создан: userd5e66d@yandex.ru
 Response Code: 200
 {
     "success": true,
     "user": {
-        "email": "user29f8dc@yandex.ru",
-        "name": "User21f44e"
+        "email": "userd5e66d@yandex.ru",
+        "name": "Usere4849c"
     },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Mzg4ZGE1OWVkMjgwMDAxYjUxMGM1NSIsImlhdCI6MTczMTc1OTUyNSwiZXhwIjoxNzMxNzYwNzI1fQ.9RDeKrPfk36zcR_XESCyCLiSauClebV8D78S2S7Sguk",
-    "refreshToken": "5eece27a39ffeeceb12a8da1298a4d7b41a21834913e2f4e152486dc4fc94e8abf45301cb3e42e3b"
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3M2M2MzMyOWVkMjgwMDAxYjUxMzFiYiIsImlhdCI6MTczMjAxMDgwMiwiZXhwIjoxNzMyMDEyMDAyfQ.zcHGvmoAjEKkxbQymmOvd5xe0b92CHa1Q0mXJDOHFDI",
+    "refreshToken": "b57bfb0ddd51f5270fd71f8460e54e5c29b61b96f1cc1c2414e4e0a6c0516a7718e078aca9a28f0f"
 }
 Response body:
 {
     "success": true,
     "user": {
-        "email": "user29f8dc@yandex.ru",
-        "name": "User21f44e"
+        "email": "userd5e66d@yandex.ru",
+        "name": "Usere4849c"
     },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Mzg4ZGE1OWVkMjgwMDAxYjUxMGM1NSIsImlhdCI6MTczMTc1OTUyNSwiZXhwIjoxNzMxNzYwNzI1fQ.9RDeKrPfk36zcR_XESCyCLiSauClebV8D78S2S7Sguk",
-    "refreshToken": "5eece27a39ffeeceb12a8da1298a4d7b41a21834913e2f4e152486dc4fc94e8abf45301cb3e42e3b"
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3M2M2MzMyOWVkMjgwMDAxYjUxMzFiYiIsImlhdCI6MTczMjAxMDgwMiwiZXhwIjoxNzMyMDEyMDAyfQ.zcHGvmoAjEKkxbQymmOvd5xe0b92CHa1Q0mXJDOHFDI",
+    "refreshToken": "b57bfb0ddd51f5270fd71f8460e54e5c29b61b96f1cc1c2414e4e0a6c0516a7718e078aca9a28f0f"
 }
 Запрос на обновление email без авторизации:
-Тело запроса: {"email":"userdb5954@yandex.ru", "name":"User21f44e", "password":"pass083dbb"}
+Тело запроса: {"email":"user04c73e@yandex.ru", "name":"Usere4849c", "password":"passd81db5"}
 Ответ после обновления email:
 {
     "success": false,
