@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="apiTests.UserDataUpdateTest" time="20.406" tests="8" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="C:\Users\Anastasia\IdeaProjects\Diplom_2\target\test-classes;C:\Users\Anastasia\IdeaProjects\Diplom_2\target\classes;C:\Users\Anastasia\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Anastasia\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Anastasia\.m2\repository\io\rest-assured\rest-assured\4.5.1\rest-assured-4.5.1.jar;C:\Users\Anastasia\.m2\repository\org\codehaus\groovy\groovy\3.0.9\groovy-3.0.9.jar;C:\Users\Anastasia\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.9\groovy-xml-3.0.9.jar;C:\Users\Anastasia\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Anastasia\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Anastasia\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Anastasia\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Anastasia\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Anastasia\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Anastasia\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Anastasia\.m2\repository\io\rest-assured\json-path\4.5.1\json-path-4.5.1.jar;C:\Users\Anastasia\.m2\repository\org\codehaus\groovy\groovy-json\3.0.9\groovy-json-3.0.9.jar;C:\Users\Anastasia\.m2\repository\io\rest-assured\rest-assured-common\4.5.1\rest-assured-common-4.5.1.jar;C:\Users\Anastasia\.m2\repository\io\rest-assured\xml-path\4.5.1\xml-path-4.5.1.jar;C:\Users\Anastasia\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Anastasia\.m2\repository\io\qameta\allure\allure-junit4\2.17.3\allure-junit4-2.17.3.jar;C:\Users\Anastasia\.m2\repository\io\qameta\allure\allure-java-commons\2.17.3\allure-java-commons-2.17.3.jar;C:\Users\Anastasia\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Anastasia\.m2\repository\io\qameta\allure\allure-model\2.17.3\allure-model-2.17.3.jar;C:\Users\Anastasia\.m2\repository\io\qameta\allure\allure-rest-assured\2.17.3\allure-rest-assured-2.17.3.jar;C:\Users\Anastasia\.m2\repository\io\qameta\allure\allure-attachments\2.17.3\allure-attachments-2.17.3.jar;C:\Users\Anastasia\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\Anastasia\.m2\repository\com\google\code\gson\gson\2.8.9\gson-2.8.9.jar;"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Amazon Corretto\jdk17.0.12_7\bin"/>
+    <property name="sun.java.command" value="C:\Users\Anastasia\AppData\Local\Temp\surefire15116704192845150125\surefirebooter-20241119130558690_3.jar C:\Users\Anastasia\AppData\Local\Temp\surefire15116704192845150125 2024-11-19T13-05-58_348-jvmRun1 surefire-20241119130558690_1tmp surefire_0-20241119130558690_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Anastasia\IdeaProjects\Diplom_2\target\test-classes;C:\Users\Anastasia\IdeaProjects\Diplom_2\target\classes;C:\Users\Anastasia\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Anastasia\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Anastasia\.m2\repository\io\rest-assured\rest-assured\4.5.1\rest-assured-4.5.1.jar;C:\Users\Anastasia\.m2\repository\org\codehaus\groovy\groovy\3.0.9\groovy-3.0.9.jar;C:\Users\Anastasia\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.9\groovy-xml-3.0.9.jar;C:\Users\Anastasia\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Anastasia\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Anastasia\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Anastasia\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Anastasia\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Anastasia\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Anastasia\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Anastasia\.m2\repository\io\rest-assured\json-path\4.5.1\json-path-4.5.1.jar;C:\Users\Anastasia\.m2\repository\org\codehaus\groovy\groovy-json\3.0.9\groovy-json-3.0.9.jar;C:\Users\Anastasia\.m2\repository\io\rest-assured\rest-assured-common\4.5.1\rest-assured-common-4.5.1.jar;C:\Users\Anastasia\.m2\repository\io\rest-assured\xml-path\4.5.1\xml-path-4.5.1.jar;C:\Users\Anastasia\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Anastasia\.m2\repository\io\qameta\allure\allure-junit4\2.17.3\allure-junit4-2.17.3.jar;C:\Users\Anastasia\.m2\repository\io\qameta\allure\allure-java-commons\2.17.3\allure-java-commons-2.17.3.jar;C:\Users\Anastasia\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Anastasia\.m2\repository\io\qameta\allure\allure-model\2.17.3\allure-model-2.17.3.jar;C:\Users\Anastasia\.m2\repository\io\qameta\allure\allure-rest-assured\2.17.3\allure-rest-assured-2.17.3.jar;C:\Users\Anastasia\.m2\repository\io\qameta\allure\allure-attachments\2.17.3\allure-attachments-2.17.3.jar;C:\Users\Anastasia\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\Anastasia\.m2\repository\com\google\code\gson\gson\2.8.9\gson-2.8.9.jar;"/>
+    <property name="allure.results.directory" value="C:\Users\Anastasia\IdeaProjects\Diplom_2\target/allure-results"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Anastasia"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="C:\Program Files\Amazon Corretto\jdk17.0.12_7"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Anastasia\IdeaProjects\Diplom_2"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Anastasia\AppData\Local\Temp\surefire15116704192845150125\surefirebooter-20241119130558690_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.12+7-LTS"/>
+    <property name="user.name" value="Stasia"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Corretto-17.0.12.7.1"/>
+    <property name="localRepository" value="C:\Users\Anastasia\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-17/issues/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ANASTA~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.12"/>
+    <property name="user.dir" value="C:\Users\Anastasia\IdeaProjects\Diplom_2"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1251"/>
+    <property name="java.library.path" value="C:\Program Files\Amazon Corretto\jdk17.0.12_7\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\Anastasia\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Anastasia\bin;C:\Program Files\Amazon Corretto\jdk17.0.12_7\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\dotnet;C:\Users\Anastasia\AppData\Local\Microsoft\WindowsApps;C:\Users\Anastasia\AppData\Local\GitHubDesktop\bin;C:\Program Files\apache-maven-3.9.8\bin;C:\Users\Anastasia\.jdks\corretto-11.0.24\bin;D:\Programms\WebStorm 2024.1.5\bin;C:\Users\Anastasia\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\Anastasia\AppData\Local\Keybase;D:\WebDriver\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin;C:\Users\Anastasia\AppData\Local\Microsoft\WindowsApps;C:\Users\Anastasia\AppData\Local\GitHubDesktop\bin;C:\Program Files\apache-maven-3.9.8\bin;C:\Users\Anastasia\.jdks\corretto-11.0.24\bin;D:\Programms\WebStorm 2024.1.5\bin;C:\Users\Anastasia\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\Anastasia\AppData\Local\Keybase;D:\allure-2.30.0\allure-2.30.0\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="java.vm.version" value="17.0.12+7-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="updateUserWithAuthorizationName" classname="apiTests.UserDataUpdateTest" time="2.27">
+    <system-out><![CDATA[Пользователь успешно создан: user0fff8a@yandex.ru
+Response Code: 200
+{
+    "success": true,
+    "user": {
+        "email": "user0fff8a@yandex.ru",
+        "name": "User65b3ff"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3M2M2MzIwOWVkMjgwMDAxYjUxMzFhZCIsImlhdCI6MTczMjAxMDc4NCwiZXhwIjoxNzMyMDExOTg0fQ.NlcRU406-_Vmu2Vy6uDp11SuLDBTiVC3uPdzNdrXI8E",
+    "refreshToken": "78a512a02044bd9f4a950aa128711433bb05a76e17a70504149e901f613d71d946285a66c8174202"
+}
+Response body:
+{
+    "success": true,
+    "user": {
+        "email": "user0fff8a@yandex.ru",
+        "name": "User65b3ff"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3M2M2MzIwOWVkMjgwMDAxYjUxMzFhZCIsImlhdCI6MTczMjAxMDc4NCwiZXhwIjoxNzMyMDExOTg0fQ.NlcRU406-_Vmu2Vy6uDp11SuLDBTiVC3uPdzNdrXI8E",
+    "refreshToken": "78a512a02044bd9f4a950aa128711433bb05a76e17a70504149e901f613d71d946285a66c8174202"
+}
+Запрос на обновление name:
+Токен авторизации: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3M2M2MzIwOWVkMjgwMDAxYjUxMzFhZCIsImlhdCI6MTczMjAxMDc4NCwiZXhwIjoxNzMyMDExOTg0fQ.NlcRU406-_Vmu2Vy6uDp11SuLDBTiVC3uPdzNdrXI8E
+Тело запроса: {"email":"user0fff8a@yandex.ru", "name":"Userb9dff9", "password":"passd7fdfe"}
+Ответ после обновления name:
+{
+    "success": true,
+    "user": {
+        "email": "user0fff8a@yandex.ru",
+        "name": "Userb9dff9"
+    }
+}
+{
+    "success": true,
+    "user": {
+        "email": "user0fff8a@yandex.ru",
+        "name": "Userb9dff9"
+    }
+}
+Delete Response Code: 202
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+Delete Response Body:
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+Пользователь успешно удален
+]]></system-out>
+  </testcase>
+  <testcase name="updateUserWithAuthorizationAllFields" classname="apiTests.UserDataUpdateTest" time="2.19">
+    <system-out><![CDATA[Пользователь успешно создан: userb893b6@yandex.ru
+Response Code: 200
+{
+    "success": true,
+    "user": {
+        "email": "userb893b6@yandex.ru",
+        "name": "User1c9454"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3M2M2MzIyOWVkMjgwMDAxYjUxMzFhZiIsImlhdCI6MTczMjAxMDc4NiwiZXhwIjoxNzMyMDExOTg2fQ.32x6D1x9PtjtTQcSMRhnhef-OEJWv_8pGFr2ggmk20I",
+    "refreshToken": "49933fcad3fe842655248815a3d9b5a6ac01694503022e002d0e34026ce22edfb6c798be4f700be0"
+}
+Response body:
+{
+    "success": true,
+    "user": {
+        "email": "userb893b6@yandex.ru",
+        "name": "User1c9454"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3M2M2MzIyOWVkMjgwMDAxYjUxMzFhZiIsImlhdCI6MTczMjAxMDc4NiwiZXhwIjoxNzMyMDExOTg2fQ.32x6D1x9PtjtTQcSMRhnhef-OEJWv_8pGFr2ggmk20I",
+    "refreshToken": "49933fcad3fe842655248815a3d9b5a6ac01694503022e002d0e34026ce22edfb6c798be4f700be0"
+}
+Запрос на обновление всех полей:
+Токен авторизации: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3M2M2MzIyOWVkMjgwMDAxYjUxMzFhZiIsImlhdCI6MTczMjAxMDc4NiwiZXhwIjoxNzMyMDExOTg2fQ.32x6D1x9PtjtTQcSMRhnhef-OEJWv_8pGFr2ggmk20I
+Тело запроса: {"email":"user9b7bd8@yandex.ru", "name":"Userbcc4f0", "password":"pass8026a2"}
+Ответ после обновления всех полей:
+{
+    "success": true,
+    "user": {
+        "email": "user9b7bd8@yandex.ru",
+        "name": "Userbcc4f0"
+    }
+}
+{
+    "success": true,
+    "user": {
+        "email": "user9b7bd8@yandex.ru",
+        "name": "Userbcc4f0"
+    }
+}
+Delete Response Code: 202
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+Delete Response Body:
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+Пользователь успешно удален
+]]></system-out>
+  </testcase>
+  <testcase name="updateUserWithAuthorizationEmail" classname="apiTests.UserDataUpdateTest" time="3.743">
+    <system-out><![CDATA[Пользователь успешно создан: user22087b@yandex.ru
+Response Code: 200
+{
+    "success": true,
+    "user": {
+        "email": "user22087b@yandex.ru",
+        "name": "Userbff64d"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3M2M2MzI1OWVkMjgwMDAxYjUxMzFiMSIsImlhdCI6MTczMjAxMDc4OSwiZXhwIjoxNzMyMDExOTg5fQ.VzoltQKu4wYgEioYS5AVFgsmbaV5qQ7P5dpbOq1mvCM",
+    "refreshToken": "c3d778ca6a0b77ae9c765fb0413a5cf385eaecee404a80bbd2bd189afb95e996e443a5ff3b696527"
+}
+Response body:
+{
+    "success": true,
+    "user": {
+        "email": "user22087b@yandex.ru",
+        "name": "Userbff64d"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3M2M2MzI1OWVkMjgwMDAxYjUxMzFiMSIsImlhdCI6MTczMjAxMDc4OSwiZXhwIjoxNzMyMDExOTg5fQ.VzoltQKu4wYgEioYS5AVFgsmbaV5qQ7P5dpbOq1mvCM",
+    "refreshToken": "c3d778ca6a0b77ae9c765fb0413a5cf385eaecee404a80bbd2bd189afb95e996e443a5ff3b696527"
+}
+Запрос на обновление email:
+Токен авторизации: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3M2M2MzI1OWVkMjgwMDAxYjUxMzFiMSIsImlhdCI6MTczMjAxMDc4OSwiZXhwIjoxNzMyMDExOTg5fQ.VzoltQKu4wYgEioYS5AVFgsmbaV5qQ7P5dpbOq1mvCM
+Тело запроса: {"email":"user19dfc8@yandex.ru", "name":"Userbff64d", "password":"passd039f1"}
+Ответ после обновления email:
+{
+    "success": true,
+    "user": {
+        "email": "user19dfc8@yandex.ru",
+        "name": "Userbff64d"
+    }
+}
+{
+    "success": true,
+    "user": {
+        "email": "user19dfc8@yandex.ru",
+        "name": "Userbff64d"
+    }
+}
+Delete Response Code: 202
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+Delete Response Body:
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+Пользователь успешно удален
+]]></system-out>
+  </testcase>
+  <testcase name="updateUserWithoutAuthorizationName" classname="apiTests.UserDataUpdateTest" time="2.207">
+    <system-out><![CDATA[Пользователь успешно создан: userd87bb1@yandex.ru
+Response Code: 200
+{
+    "success": true,
+    "user": {
+        "email": "userd87bb1@yandex.ru",
+        "name": "Userc51243"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3M2M2MzI4OWVkMjgwMDAxYjUxMzFiMyIsImlhdCI6MTczMjAxMDc5MiwiZXhwIjoxNzMyMDExOTkyfQ._4qkPyY7DWaqnivp05KxI5PLZ5rVxtsfVClQGkfjGWw",
+    "refreshToken": "a00fc31cbaf2c8e5a9c699aef195b1bf542d24b2d0e263ec4c97d2bdf8a9a4261bed2f79cbafe447"
+}
+Response body:
+{
+    "success": true,
+    "user": {
+        "email": "userd87bb1@yandex.ru",
+        "name": "Userc51243"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3M2M2MzI4OWVkMjgwMDAxYjUxMzFiMyIsImlhdCI6MTczMjAxMDc5MiwiZXhwIjoxNzMyMDExOTkyfQ._4qkPyY7DWaqnivp05KxI5PLZ5rVxtsfVClQGkfjGWw",
+    "refreshToken": "a00fc31cbaf2c8e5a9c699aef195b1bf542d24b2d0e263ec4c97d2bdf8a9a4261bed2f79cbafe447"
+}
+Запрос на обновление name без авторизации:
+Тело запроса: {"email":"userd87bb1@yandex.ru", "name":"Userd0a706", "password":"pass325485"}
+Ответ после обновления email:
+{
+    "success": false,
+    "message": "You should be authorised"
+}
+{
+    "success": false,
+    "message": "You should be authorised"
+}
+Delete Response Code: 202
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+Delete Response Body:
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+Пользователь успешно удален
+]]></system-out>
+  </testcase>
+  <testcase name="updateUserWithoutAuthorizationPassword" classname="apiTests.UserDataUpdateTest" time="3.111">
+    <system-out><![CDATA[Пользователь успешно создан: user9d4da1@yandex.ru
+Response Code: 200
+{
+    "success": true,
+    "user": {
+        "email": "user9d4da1@yandex.ru",
+        "name": "Userc2a59f"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3M2M2MzJhOWVkMjgwMDAxYjUxMzFiNSIsImlhdCI6MTczMjAxMDc5NCwiZXhwIjoxNzMyMDExOTk0fQ.z7MWllCYF6xoc_d8IQO36yWQvHsu9lFknafBKTbrhNg",
+    "refreshToken": "6c7ab9e091a30b4dbeda1f6cf8e0a333593ed6566bc7b2a20148770dc2332ae733aa9df2d9e875b8"
+}
+Response body:
+{
+    "success": true,
+    "user": {
+        "email": "user9d4da1@yandex.ru",
+        "name": "Userc2a59f"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3M2M2MzJhOWVkMjgwMDAxYjUxMzFiNSIsImlhdCI6MTczMjAxMDc5NCwiZXhwIjoxNzMyMDExOTk0fQ.z7MWllCYF6xoc_d8IQO36yWQvHsu9lFknafBKTbrhNg",
+    "refreshToken": "6c7ab9e091a30b4dbeda1f6cf8e0a333593ed6566bc7b2a20148770dc2332ae733aa9df2d9e875b8"
+}
+Запрос на обновление password без авторизации:
+Тело запроса: {"email":"user9d4da1@yandex.ru", "name":"Userc2a59f", "password":"pass04e925"}
+Ответ после обновления email:
+{
+    "success": false,
+    "message": "You should be authorised"
+}
+{
+    "success": false,
+    "message": "You should be authorised"
+}
+Delete Response Code: 202
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+Delete Response Body:
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+Пользователь успешно удален
+]]></system-out>
+  </testcase>
+  <testcase name="updateUserWithAuthorizationPassword" classname="apiTests.UserDataUpdateTest" time="2.781">
+    <system-out><![CDATA[Пользователь успешно создан: userb5392c@yandex.ru
+Response Code: 200
+{
+    "success": true,
+    "user": {
+        "email": "userb5392c@yandex.ru",
+        "name": "User698287"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3M2M2MzJlOWVkMjgwMDAxYjUxMzFiNyIsImlhdCI6MTczMjAxMDc5OCwiZXhwIjoxNzMyMDExOTk4fQ.JMT2NJsXwZNSgjZhAKyuubd70go9_24Wbe7qfJ6Rvok",
+    "refreshToken": "82aa1b19e4dd62efe3f38462afdebb7e5892da2f3bac98c301923dce679b0ea194309cfba7fe117f"
+}
+Response body:
+{
+    "success": true,
+    "user": {
+        "email": "userb5392c@yandex.ru",
+        "name": "User698287"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3M2M2MzJlOWVkMjgwMDAxYjUxMzFiNyIsImlhdCI6MTczMjAxMDc5OCwiZXhwIjoxNzMyMDExOTk4fQ.JMT2NJsXwZNSgjZhAKyuubd70go9_24Wbe7qfJ6Rvok",
+    "refreshToken": "82aa1b19e4dd62efe3f38462afdebb7e5892da2f3bac98c301923dce679b0ea194309cfba7fe117f"
+}
+Запрос на обновление password:
+Токен авторизации: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3M2M2MzJlOWVkMjgwMDAxYjUxMzFiNyIsImlhdCI6MTczMjAxMDc5OCwiZXhwIjoxNzMyMDExOTk4fQ.JMT2NJsXwZNSgjZhAKyuubd70go9_24Wbe7qfJ6Rvok
+Тело запроса: {"email":"userb5392c@yandex.ru", "name":"User698287", "password":"pass08f193"}
+Ответ после обновления password:
+{
+    "success": true,
+    "user": {
+        "email": "userb5392c@yandex.ru",
+        "name": "User698287"
+    }
+}
+{
+    "success": true,
+    "user": {
+        "email": "userb5392c@yandex.ru",
+        "name": "User698287"
+    }
+}
+Delete Response Code: 202
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+Delete Response Body:
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+Пользователь успешно удален
+]]></system-out>
+  </testcase>
+  <testcase name="updateUserWithoutAuthorizationAllData" classname="apiTests.UserDataUpdateTest" time="2.098">
+    <system-out><![CDATA[Пользователь успешно создан: user12b48e@yandex.ru
+Response Code: 200
+{
+    "success": true,
+    "user": {
+        "email": "user12b48e@yandex.ru",
+        "name": "User8525a1"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3M2M2MzMwOWVkMjgwMDAxYjUxMzFiOSIsImlhdCI6MTczMjAxMDgwMCwiZXhwIjoxNzMyMDEyMDAwfQ.QZsGdHaXiJ02tdb-4-xKbtsV_xPv4KYWn6nhNIpPTZU",
+    "refreshToken": "10cef98d64b9b3fc9a1e3bc9eaad279775b6b1c3c982c990c79423e261ada1ce61293e8f07b9892f"
+}
+Response body:
+{
+    "success": true,
+    "user": {
+        "email": "user12b48e@yandex.ru",
+        "name": "User8525a1"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3M2M2MzMwOWVkMjgwMDAxYjUxMzFiOSIsImlhdCI6MTczMjAxMDgwMCwiZXhwIjoxNzMyMDEyMDAwfQ.QZsGdHaXiJ02tdb-4-xKbtsV_xPv4KYWn6nhNIpPTZU",
+    "refreshToken": "10cef98d64b9b3fc9a1e3bc9eaad279775b6b1c3c982c990c79423e261ada1ce61293e8f07b9892f"
+}
+Запрос на обновление всех данных без авторизации:
+Тело запроса: {"email":"user2ac8b1@yandex.ru", "name":"User953145", "password":"passcbb010"}
+Ответ после обновления email:
+{
+    "success": false,
+    "message": "You should be authorised"
+}
+{
+    "success": false,
+    "message": "You should be authorised"
+}
+Delete Response Code: 202
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+Delete Response Body:
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+Пользователь успешно удален
+]]></system-out>
+  </testcase>
+  <testcase name="updateUserWithoutAuthorizationEmail" classname="apiTests.UserDataUpdateTest" time="1.993">
+    <system-out><![CDATA[Пользователь успешно создан: userd5e66d@yandex.ru
+Response Code: 200
+{
+    "success": true,
+    "user": {
+        "email": "userd5e66d@yandex.ru",
+        "name": "Usere4849c"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3M2M2MzMyOWVkMjgwMDAxYjUxMzFiYiIsImlhdCI6MTczMjAxMDgwMiwiZXhwIjoxNzMyMDEyMDAyfQ.zcHGvmoAjEKkxbQymmOvd5xe0b92CHa1Q0mXJDOHFDI",
+    "refreshToken": "b57bfb0ddd51f5270fd71f8460e54e5c29b61b96f1cc1c2414e4e0a6c0516a7718e078aca9a28f0f"
+}
+Response body:
+{
+    "success": true,
+    "user": {
+        "email": "userd5e66d@yandex.ru",
+        "name": "Usere4849c"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3M2M2MzMyOWVkMjgwMDAxYjUxMzFiYiIsImlhdCI6MTczMjAxMDgwMiwiZXhwIjoxNzMyMDEyMDAyfQ.zcHGvmoAjEKkxbQymmOvd5xe0b92CHa1Q0mXJDOHFDI",
+    "refreshToken": "b57bfb0ddd51f5270fd71f8460e54e5c29b61b96f1cc1c2414e4e0a6c0516a7718e078aca9a28f0f"
+}
+Запрос на обновление email без авторизации:
+Тело запроса: {"email":"user04c73e@yandex.ru", "name":"Usere4849c", "password":"passd81db5"}
+Ответ после обновления email:
+{
+    "success": false,
+    "message": "You should be authorised"
+}
+{
+    "success": false,
+    "message": "You should be authorised"
+}
+Delete Response Code: 202
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+Delete Response Body:
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+Пользователь успешно удален
+]]></system-out>
+  </testcase>
+</testsuite>

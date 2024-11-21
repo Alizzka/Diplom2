@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="apiTests.UserOrdersTest" time="6.938" tests="2" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="C:\Users\Anastasia\IdeaProjects\Diplom_2\target\test-classes;C:\Users\Anastasia\IdeaProjects\Diplom_2\target\classes;C:\Users\Anastasia\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Anastasia\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Anastasia\.m2\repository\io\rest-assured\rest-assured\4.5.1\rest-assured-4.5.1.jar;C:\Users\Anastasia\.m2\repository\org\codehaus\groovy\groovy\3.0.9\groovy-3.0.9.jar;C:\Users\Anastasia\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.9\groovy-xml-3.0.9.jar;C:\Users\Anastasia\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Anastasia\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Anastasia\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Anastasia\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Anastasia\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Anastasia\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Anastasia\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Anastasia\.m2\repository\io\rest-assured\json-path\4.5.1\json-path-4.5.1.jar;C:\Users\Anastasia\.m2\repository\org\codehaus\groovy\groovy-json\3.0.9\groovy-json-3.0.9.jar;C:\Users\Anastasia\.m2\repository\io\rest-assured\rest-assured-common\4.5.1\rest-assured-common-4.5.1.jar;C:\Users\Anastasia\.m2\repository\io\rest-assured\xml-path\4.5.1\xml-path-4.5.1.jar;C:\Users\Anastasia\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Anastasia\.m2\repository\io\qameta\allure\allure-junit4\2.17.3\allure-junit4-2.17.3.jar;C:\Users\Anastasia\.m2\repository\io\qameta\allure\allure-java-commons\2.17.3\allure-java-commons-2.17.3.jar;C:\Users\Anastasia\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Anastasia\.m2\repository\io\qameta\allure\allure-model\2.17.3\allure-model-2.17.3.jar;C:\Users\Anastasia\.m2\repository\io\qameta\allure\allure-rest-assured\2.17.3\allure-rest-assured-2.17.3.jar;C:\Users\Anastasia\.m2\repository\io\qameta\allure\allure-attachments\2.17.3\allure-attachments-2.17.3.jar;C:\Users\Anastasia\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\Anastasia\.m2\repository\com\google\code\gson\gson\2.8.9\gson-2.8.9.jar;"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Amazon Corretto\jdk17.0.12_7\bin"/>
+    <property name="sun.java.command" value="C:\Users\Anastasia\AppData\Local\Temp\surefire15116704192845150125\surefirebooter-20241119130558690_3.jar C:\Users\Anastasia\AppData\Local\Temp\surefire15116704192845150125 2024-11-19T13-05-58_348-jvmRun1 surefire-20241119130558690_1tmp surefire_0-20241119130558690_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Anastasia\IdeaProjects\Diplom_2\target\test-classes;C:\Users\Anastasia\IdeaProjects\Diplom_2\target\classes;C:\Users\Anastasia\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Anastasia\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Anastasia\.m2\repository\io\rest-assured\rest-assured\4.5.1\rest-assured-4.5.1.jar;C:\Users\Anastasia\.m2\repository\org\codehaus\groovy\groovy\3.0.9\groovy-3.0.9.jar;C:\Users\Anastasia\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.9\groovy-xml-3.0.9.jar;C:\Users\Anastasia\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Anastasia\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Anastasia\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Anastasia\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Anastasia\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Anastasia\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Anastasia\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Anastasia\.m2\repository\io\rest-assured\json-path\4.5.1\json-path-4.5.1.jar;C:\Users\Anastasia\.m2\repository\org\codehaus\groovy\groovy-json\3.0.9\groovy-json-3.0.9.jar;C:\Users\Anastasia\.m2\repository\io\rest-assured\rest-assured-common\4.5.1\rest-assured-common-4.5.1.jar;C:\Users\Anastasia\.m2\repository\io\rest-assured\xml-path\4.5.1\xml-path-4.5.1.jar;C:\Users\Anastasia\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Anastasia\.m2\repository\io\qameta\allure\allure-junit4\2.17.3\allure-junit4-2.17.3.jar;C:\Users\Anastasia\.m2\repository\io\qameta\allure\allure-java-commons\2.17.3\allure-java-commons-2.17.3.jar;C:\Users\Anastasia\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Anastasia\.m2\repository\io\qameta\allure\allure-model\2.17.3\allure-model-2.17.3.jar;C:\Users\Anastasia\.m2\repository\io\qameta\allure\allure-rest-assured\2.17.3\allure-rest-assured-2.17.3.jar;C:\Users\Anastasia\.m2\repository\io\qameta\allure\allure-attachments\2.17.3\allure-attachments-2.17.3.jar;C:\Users\Anastasia\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\Anastasia\.m2\repository\com\google\code\gson\gson\2.8.9\gson-2.8.9.jar;"/>
+    <property name="allure.results.directory" value="C:\Users\Anastasia\IdeaProjects\Diplom_2\target/allure-results"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Anastasia"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="C:\Program Files\Amazon Corretto\jdk17.0.12_7"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Anastasia\IdeaProjects\Diplom_2"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Anastasia\AppData\Local\Temp\surefire15116704192845150125\surefirebooter-20241119130558690_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.12+7-LTS"/>
+    <property name="user.name" value="Stasia"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Corretto-17.0.12.7.1"/>
+    <property name="localRepository" value="C:\Users\Anastasia\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-17/issues/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ANASTA~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.12"/>
+    <property name="user.dir" value="C:\Users\Anastasia\IdeaProjects\Diplom_2"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1251"/>
+    <property name="java.library.path" value="C:\Program Files\Amazon Corretto\jdk17.0.12_7\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\Anastasia\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Anastasia\bin;C:\Program Files\Amazon Corretto\jdk17.0.12_7\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\dotnet;C:\Users\Anastasia\AppData\Local\Microsoft\WindowsApps;C:\Users\Anastasia\AppData\Local\GitHubDesktop\bin;C:\Program Files\apache-maven-3.9.8\bin;C:\Users\Anastasia\.jdks\corretto-11.0.24\bin;D:\Programms\WebStorm 2024.1.5\bin;C:\Users\Anastasia\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\Anastasia\AppData\Local\Keybase;D:\WebDriver\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin;C:\Users\Anastasia\AppData\Local\Microsoft\WindowsApps;C:\Users\Anastasia\AppData\Local\GitHubDesktop\bin;C:\Program Files\apache-maven-3.9.8\bin;C:\Users\Anastasia\.jdks\corretto-11.0.24\bin;D:\Programms\WebStorm 2024.1.5\bin;C:\Users\Anastasia\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\Anastasia\AppData\Local\Keybase;D:\allure-2.30.0\allure-2.30.0\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="java.vm.version" value="17.0.12+7-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="getUserOrdersWithAuthorization" classname="apiTests.UserOrdersTest" time="6.324">
+    <system-out><![CDATA[Пользователь успешно создан: user830f87@yandex.ru
+Логин с данными - email: user830f87@yandex.ru, password: passf1b119, name: Userc28850
+Пользователь успешно вошел в систему
+Проверка успешного создания заказа...
+HTTP/1.1 200 OK
+Date: Tue, 19 Nov 2024 10:06:52 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"4eb-8dNn3NVX6knMs4n9WRWc2u0+UMk"
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=9J5LUdzHr1uiD9USV3Jtf13eFP4G5kcscl%2BhlYOFFzX8bBlFQvQHROO0PmHU%2B0l5qSDt%2FPm5qFK7X84y%2BUfAfIpfldjSbu08cN%2BUPKThqAD5FuMbNonjk4qotLrjtZ8lQ%2BC%2BZg7VQMzbvv9r25ynMlXBYaA%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 8e4f63d12be88218-IAD
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+server-timing: cfL4;desc="?proto=TCP&rtt=149404&sent=8&recv=7&lost=0&retrans=0&sent_bytes=3303&recv_bytes=1131&delivery_rate=28460&cwnd=233&unsent_bytes=0&cid=26fb86e55ea98561&ts=2420&x=0"
+
+{
+    "success": true,
+    "name": "Фалленианский флюоресцентный бургер",
+    "order": {
+        "ingredients": [
+            {
+                "_id": "61c0c5a71d1f82001bdaaa6d",
+                "name": "Флюоресцентная булка R2-D3",
+                "type": "bun",
+                "proteins": 44,
+                "fat": 26,
+                "carbohydrates": 85,
+                "calories": 643,
+                "price": 988,
+                "image": "https://code.s3.yandex.net/react/code/bun-01.png",
+                "image_mobile": "https://code.s3.yandex.net/react/code/bun-01-mobile.png",
+                "image_large": "https://code.s3.yandex.net/react/code/bun-01-large.png",
+                "__v": 0
+            },
+            {
+                "_id": "61c0c5a71d1f82001bdaaa77",
+                "name": "Плоды Фалленианского дерева",
+                "type": "main",
+                "proteins": 20,
+                "fat": 5,
+                "carbohydrates": 55,
+                "calories": 77,
+                "price": 874,
+                "image": "https://code.s3.yandex.net/react/code/sp_1.png",
+                "image_mobile": "https://code.s3.yandex.net/react/code/sp_1-mobile.png",
+                "image_large": "https://code.s3.yandex.net/react/code/sp_1-large.png",
+                "__v": 0
+            }
+        ],
+        "_id": "673c633b9ed280001b5131c5",
+        "owner": {
+            "name": "Userc28850",
+            "email": "user830f87@yandex.ru",
+            "createdAt": "2024-11-19T10:06:49.494Z",
+            "updatedAt": "2024-11-19T10:06:49.494Z"
+        },
+        "status": "done",
+        "name": "Фалленианский флюоресцентный бургер",
+        "createdAt": "2024-11-19T10:06:51.251Z",
+        "updatedAt": "2024-11-19T10:06:52.256Z",
+        "number": 151897,
+        "price": 1862
+    }
+}
+Проверка ответа успешного создания заказа...
+Создание заказа проверено успешно
+Выполняется метод для получения списка заказов авторизованного пользователя...
+Request method:	GET
+Request URI:	https://stellarburgers.nomoreparties.site/api/orders
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3M2M2MzM5OWVkMjgwMDAxYjUxMzFjMiIsImlhdCI6MTczMjAxMDgxMCwiZXhwIjoxNzMyMDEyMDEwfQ.m_c93vvBuRXhKzu1AOl47s66uNB9sZ-dm6X_Ykf3yYI
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Tue, 19 Nov 2024 10:06:53 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"15f-ZSlfwOYVYmuv6HOgTLfxPF1U/IM"
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=a%2B99hpDNbO6r1xiLeW%2B8uvu5UVZSujFYw8%2BVr1LPoQpQOnmSQnsusbphqeVUCWId7F6uB3oUCAtD1h0EyhwXkKBfTLPJKOULQMyUawnvnc6PuWoI3XwHuWpyTCj5fXvVykwXRksQIj5nFdS22zYkiRsgwDg%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 8e4f63e0ab08d479-CDG
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+server-timing: cfL4;desc="?proto=TCP&rtt=89643&sent=8&recv=7&lost=0&retrans=0&sent_bytes=3303&recv_bytes=1001&delivery_rate=43233&cwnd=253&unsent_bytes=0&cid=f6c69f2fe54ad8f9&ts=606&x=0"
+
+{
+    "success": true,
+    "orders": [
+        {
+            "_id": "673c633b9ed280001b5131c5",
+            "ingredients": [
+                "61c0c5a71d1f82001bdaaa6d",
+                "61c0c5a71d1f82001bdaaa77"
+            ],
+            "status": "done",
+            "name": "Фалленианский флюоресцентный бургер",
+            "createdAt": "2024-11-19T10:06:51.251Z",
+            "updatedAt": "2024-11-19T10:06:52.256Z",
+            "number": 151897
+        }
+    ],
+    "total": 151897,
+    "totalToday": 86
+}
+Метод получения списка заказов пользователя отработал
+Проверка успешного получения списка заказов....
+Список заказов проверен успешно
+Delete Response Code: 202
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+Delete Response Body:
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+Пользователь успешно удален
+]]></system-out>
+  </testcase>
+  <testcase name="createOrderAndGetUserOrdersWithoutAuthorization" classname="apiTests.UserOrdersTest" time="0.613">
+    <system-out><![CDATA[Выполняется метод проверки ошибки для получения списка заказов без авторизации...
+Request method:	GET
+Request URI:	https://stellarburgers.nomoreparties.site/api/orders
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 401 Unauthorized
+Date: Tue, 19 Nov 2024 10:06:55 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 54
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"36-9ndkQYJpZ8s0sMN790Nuh0MLq/U"
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=4jPWZ5ES4VSEMW%2FuPa2zi%2BiSk1K6lKYktiLJmVCsWZkbxrfww2kt5A7ctfAQ9OHbCRPgjH0Ex60YhDn8er4Upk%2FcJPANbKgsemU5D1nWXuKfV0EyEngm4MqdtU1xxHDe%2BMMDjjhLYIBESAJdjfEYeoVY6GA%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 8e4f63edbd57b128-MAN
+alt-svc: h3=":443"; ma=86400
+server-timing: cfL4;desc="?proto=TCP&rtt=73551&sent=8&recv=7&lost=0&retrans=0&sent_bytes=3302&recv_bytes=806&delivery_rate=50065&cwnd=253&unsent_bytes=0&cid=66226f26e5cb3c51&ts=411&x=0"
+
+{
+    "success": false,
+    "message": "You should be authorised"
+}
+Метод проверки ошибки для получения списка заказов без авторизации отработал
+Проверка ответа об ошибке получения списка заказов без авторизации....
+Проверка ответа об ошибке получения списка заказов без авторизации прошла успешно
+]]></system-out>
+  </testcase>
+</testsuite>
